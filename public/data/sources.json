@@ -1,11 +1,19 @@
 [
   {
-    "id": "ecdc-daily-outbreak-2026-05-10",
+    "id": "ecdc-daily-outbreak-2026-05-11",
     "publisher": "ECDC",
-    "title": "Andes Hantavirus outbreak in cruise ship, 10 May 2026",
-    "date": "2026-05-10",
-    "covers": "Daglig klusterstatus: 8 fall, 6 bekräftade, 2 sannolika, 0 misstänkta, 3 dödsfall och ankomst till Tenerife",
+    "title": "Andes Hantavirus outbreak in cruise ship, 11 May 2026",
+    "date": "2026-05-11",
+    "covers": "Daglig klusterstatus: 9 fall, 7 bekräftade, 2 sannolika, 0 misstänkta, 3 dödsfall och pågående repatriering från Tenerife",
     "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+  },
+  {
+    "id": "ecdc-frontline-update-2026-05-11",
+    "publisher": "ECDC",
+    "title": "Andes hantavirus outbreak: ECDC continues working on the frontline to support EU Member States",
+    "date": "2026-05-11",
+    "covers": "Pressmeddelande om nytt bekräftat fall i Frankrike, repatriering, expertstöd och preliminär genetisk sekvensering utan tecken på ny variant",
+    "url": "https://www.ecdc.europa.eu/en/news-events/andes-hantavirus-outbreak-ecdc-continues-working-frontline-support-eu-member-states"
   },
   {
     "id": "who-don-600",
@@ -14,6 +22,14 @@
     "date": "2026-05-08",
     "covers": "Disease Outbreak News DON600: 8 fall, 6 laboratoriebekräftade Andesvirusfall, 2 sannolika fall och internationell kontaktspårning",
     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
+  },
+  {
+    "id": "who-contact-guidance-2026-05-10",
+    "publisher": "WHO",
+    "title": "Management of contacts of Andes virus (ANDV) cases from the MV Hondius cruise ship",
+    "date": "2026-05-10",
+    "covers": "Riskbaserad identifiering, klassning, karantän och daglig uppföljning av kontakter i 42 dagar efter sista exponering",
+    "url": "https://www.who.int/publications/m/item/management-of-contacts-of-andes-virus-%28andv%29-cases-fromthe-mv-hondius-cruise-ship"
   },
   {
     "id": "ecdc-rapid-advice-2026-05-09",
@@ -28,15 +44,23 @@
     "publisher": "CDC",
     "title": "Interim Guidance for Public Health Assessment and Management of People with Potential Exposure to Andes Virus",
     "date": "2026-05-10",
-    "covers": "Amerikansk vägledning för kontaktdefinitioner, risknivåer och 42 dagars inkubations-/uppföljningsperiod",
+    "covers": "Amerikansk vägledning för kontaktdefinitioner, risknivåer, flygexponeringar och 42 dagars inkubations-/uppföljningsperiod",
     "url": "https://www.cdc.gov/hantavirus/media/pdfs/2026/05/Andes_virus_guidance_8FINAL.pdf"
+  },
+  {
+    "id": "canada-risk-assessment-2026-05-08",
+    "publisher": "Public Health Agency of Canada",
+    "title": "Rapid risk assessment: Hantavirus (Andes virus) outbreak on international cruise ship",
+    "date": "2026-05-08",
+    "covers": "Kanadensisk riskbedömning: låg risk för allmänheten, måttlig importationssannolikhet och fortsatt kontaktspårning",
+    "url": "https://www.canada.ca/en/public-health/services/emergency-preparedness-response/rapid-risk-assessments-public-health-professionals/rapid-risk-assessment-hantavirus-andes-virus-outbreak-international-cruise-ship.html"
   },
   {
     "id": "ap-repatriation-2026-05-11",
     "publisher": "AP",
     "title": "2 more cruise ship passengers test positive for hantavirus",
     "date": "2026-05-11",
-    "covers": "Nyhetsrapport om repatriering från Tenerife samt franskt och amerikanskt positivt test efter evakuering",
+    "covers": "Nyhetsrapport om repatriering från Tenerife, franskt positivt test och amerikansk uppföljning där WHO beskriver ett positivt test som icke entydigt",
     "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-df0e7e1fb9c7fd3e4092be06e684f644"
   },
   {
@@ -44,15 +68,15 @@
     "publisher": "The Guardian",
     "title": "Evacuated US and French MV Hondius passengers test positive for hantavirus",
     "date": "2026-05-11",
-    "covers": "Nyhetsrapport om fransk patient i Paris, amerikansk positivt test och pågående repatriering",
+    "covers": "Nyhetsrapport om fransk patient i Paris, amerikansk uppföljning efter evakuering och pågående repatriering",
     "url": "https://www.theguardian.com/world/2026/may/11/evacuated-us-and-french-mv-hondius-cruise-ship-passengers-test-positive-for-hantavirus"
   },
   {
-    "id": "unmc-monitoring-2026-05-08",
+    "id": "unmc-monitoring-2026-05-10",
     "publisher": "UNMC",
     "title": "Nebraska Medicine/UNMC asked to monitor U.S. citizens from cruise ship hantavirus outbreak",
-    "date": "2026-05-08",
+    "date": "2026-05-10",
     "covers": "Mottagning och övervakning av amerikanska passagerare i National Quarantine Unit",
-    "url": "https://www.unmc.edu/newsroom/2026/05/08/nebraska-medicine-unmc-asked-to-monitor-u-s-citizens-from-cruise-ship-hantavirus-outbreak/"
+    "url": "https://www.unmc.edu/newsroom/2026/05/10/nebraska-medicine-unmc-asked-to-monitor-u-s-citizens-from-cruise-ship-hantavirus-outbreak/"
   }
 ]

@@ -1,35 +1,46 @@
 [
   {
-    "id": "official-baseline-2026-05-10",
-    "date": "2026-05-10",
+    "id": "official-baseline-2026-05-11",
+    "date": "2026-05-11",
     "label": "Officiell baslinje",
-    "title": "ECDC anger 8 fall: 6 bekräftade och 2 sannolika",
-    "summary": "ECDC:s dagliga sida anger att MV Hondius har anlänt till Granadilla, Tenerife, och att passagerare går i land för successiva repatrieringsflyg. Risken för EU/EES allmänheten bedöms fortsatt som mycket låg.",
+    "title": "ECDC anger 9 fall: 7 bekräftade och 2 sannolika",
+    "summary": "ECDC:s dagliga sida anger per 11 maj nio rapporterade fall, noll misstänkta fall och tre dödsfall. Fartyget anlände till Granadilla den 10 maj och repatrieringar sker med icke-kommersiella flyg.",
     "source": {
-      "label": "ECDC, 10 maj 2026",
+      "label": "ECDC, 11 maj 2026",
       "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+    }
+  },
+  {
+    "id": "ecdc-genomics-france-2026-05-11",
+    "date": "2026-05-11",
+    "label": "ECDC",
+    "title": "Nytt bekräftat fall i Frankrike och ingen ny variant",
+    "summary": "ECDC rapporterar ett nytt bekräftat fall hos en tidigare passagerare i Frankrike. Tidig genetisk sekvensering pekar på koppling till samma ursprungliga smittkälla och ger enligt ECDC inget stöd för en ny variant.",
+    "source": {
+      "label": "ECDC, 11 maj 2026",
+      "url": "https://www.ecdc.europa.eu/en/news-events/andes-hantavirus-outbreak-ecdc-continues-working-frontline-support-eu-member-states"
     }
   },
   {
     "id": "repatriation-positive-tests-2026-05-11",
     "date": "2026-05-11",
     "label": "Nyhetsrapport",
-    "title": "Fransk och amerikansk evacuee uppges ha testat positivt",
-    "summary": "AP och The Guardian rapporterar att en fransk kvinna i Paris och en amerikansk passagerare evakuerad till Nebraska testat positivt efter repatriering. De rapporterna visas som nyhetsnotiser tills nästa officiella WHO/ECDC-siffra publiceras.",
+    "title": "Repatriering och karantän fortsätter från Tenerife",
+    "summary": "AP rapporterar att passagerare flygs hem till fler än 20 länder och sätts i karantän eller övervakning. AP anger också att ett amerikanskt positivt test bedömdes som icke entydigt av WHO.",
     "source": {
       "label": "AP, 11 maj 2026",
       "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-df0e7e1fb9c7fd3e4092be06e684f644"
     }
   },
   {
-    "id": "management-guidance-2026-05-09",
-    "date": "2026-05-09",
+    "id": "management-guidance-2026-05-10",
+    "date": "2026-05-10",
     "label": "Vägledning",
-    "title": "ECDC och CDC beskriver uppföljning upp till 42 dagar",
-    "summary": "ECDC klassar personer ombord som högriskkontakter för disembarkation/repatriering och anger självkarantän, daglig symtomövervakning och testning vid symtom. CDC:s vägledning anger en inkubations-/uppföljningsperiod på 4-42 dagar.",
+    "title": "WHO och CDC beskriver riskbaserad uppföljning",
+    "summary": "WHO:s kontaktvägledning och CDC:s interimsvägledning beskriver riskklassning, daglig symtomövervakning och en uppföljningsperiod på 42 dagar efter sista möjliga exponering.",
     "source": {
-      "label": "ECDC, 9 maj 2026",
-      "url": "https://www.ecdc.europa.eu/en/publications-data/rapid-scientific-advice-management-passengers-context-andes-virus-outbreak-cruise"
+      "label": "WHO, 10 maj 2026",
+      "url": "https://www.who.int/publications/m/item/management-of-contacts-of-andes-virus-%28andv%29-cases-fromthe-mv-hondius-cruise-ship"
     }
   }
 ]

@@ -77,13 +77,15 @@ export default function Home() {
         "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600",
     },
   ];
+  const sortedTrackerSources = [...trackerSources].sort((left, right) =>
+    right.date.localeCompare(left.date),
+  );
 
   return (
     <main className="min-h-screen bg-background">
-      <div className="mx-auto flex max-w-5xl flex-col gap-5 px-4 py-6 sm:px-6 lg:px-8">
-        <header className="flex flex-col gap-3">
+      <div className="mx-auto flex w-full max-w-6xl flex-col gap-5 px-4 py-6 sm:px-6 lg:px-8">
+        <header className="mx-auto flex w-full max-w-5xl flex-col gap-3">
           <div className="flex flex-wrap items-center gap-2">
-            <Badge>Statisk bevakning</Badge>
             <Badge variant="secondary">
               Uppdaterad <span className="font-mono">{lastUpdated}</span>
             </Badge>
@@ -101,7 +103,7 @@ export default function Home() {
           </div>
         </header>
 
-        <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
+        <section className="mx-auto grid w-full max-w-5xl gap-3 sm:grid-cols-2 lg:grid-cols-5">
           {stats.map((stat) => (
             <Card key={stat.label} size="sm">
               <CardHeader>
@@ -124,19 +126,16 @@ export default function Home() {
           ))}
         </section>
 
-        <Card>
+        <Card className="mx-auto w-full max-w-5xl">
           <CardHeader className="border-b">
             <CardTitle>Fall över tid</CardTitle>
-            <CardDescription>
-              Kumulativa fall och dödsfall, med fast skala 0-15.
-            </CardDescription>
           </CardHeader>
           <CardContent className="flex flex-col gap-4">
             <CasesOverTimeChart data={caseTimeline} />
           </CardContent>
         </Card>
 
-        <Card>
+        <Card className="mx-auto w-full max-w-5xl">
           <CardHeader className="border-b">
             <CardTitle>Karta</CardTitle>
           </CardHeader>
@@ -145,7 +144,7 @@ export default function Home() {
           </CardContent>
         </Card>
 
-        <Card>
+        <Card className="mx-auto w-full max-w-5xl">
           <CardHeader className="border-b">
             <CardTitle>Senaste nytt</CardTitle>
             <CardDescription>
@@ -183,58 +182,58 @@ export default function Home() {
 
         <Separator />
 
-        <Card id="sources">
-          <CardHeader>
-            <CardTitle>Källor</CardTitle>
-            <CardDescription>
+        <section id="sources" className="flex flex-col gap-4">
+          <div className="flex flex-col gap-1">
+            <h2 className="text-base font-medium leading-none">Källor</h2>
+            <p className="text-sm text-muted-foreground">
               Officiella källor som används för den aktuella statiska datan.
-            </CardDescription>
-          </CardHeader>
-          <Separator />
-          <CardContent className="flex flex-col gap-4">
-            <div className="overflow-hidden rounded-lg border">
-              <div className="overflow-x-auto">
-                <Table>
-                  <TableHeader>
-                    <TableRow>
-                      <TableHead>Källa</TableHead>
-                      <TableHead>Datum</TableHead>
-                      <TableHead>Innehåll</TableHead>
-                      <TableHead className="text-right">Länk</TableHead>
-                    </TableRow>
-                  </TableHeader>
-                  <TableBody>
-                    {trackerSources.map((source) => (
-                      <TableRow key={source.id}>
-                        <TableCell className="min-w-56 font-medium">
-                          {source.publisher}: {source.title}
-                        </TableCell>
-                        <TableCell className="min-w-28">{source.date}</TableCell>
-                        <TableCell className="min-w-80 text-muted-foreground">
-                          {source.covers}
-                        </TableCell>
-                        <TableCell className="text-right">
-                          <a
-                            className={buttonVariants({
-                              size: "sm",
-                              variant: "ghost",
-                            })}
-                            href={source.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Öppna
-                            <ExternalLinkIcon data-icon="inline-end" />
-                          </a>
-                        </TableCell>
-                      </TableRow>
-                    ))}
-                  </TableBody>
-                </Table>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
+            </p>
+          </div>
+
+          <div className="overflow-hidden rounded-lg border bg-card">
+            <Table className="min-w-[1024px]">
+              <TableHeader>
+                <TableRow>
+                  <TableHead className="w-[30rem]">Källa</TableHead>
+                  <TableHead className="w-28" aria-sort="descending">
+                    Datum
+                  </TableHead>
+                  <TableHead className="w-[30rem]">Innehåll</TableHead>
+                  <TableHead className="w-24 pr-3 text-right">Länk</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                {sortedTrackerSources.map((source) => (
+                  <TableRow key={source.id}>
+                    <TableCell className="min-w-[24rem] whitespace-normal font-medium leading-5">
+                      {source.publisher}: {source.title}
+                    </TableCell>
+                    <TableCell className="font-mono text-xs text-muted-foreground">
+                      {source.date}
+                    </TableCell>
+                    <TableCell className="min-w-[24rem] whitespace-normal leading-5 text-muted-foreground">
+                      {source.covers}
+                    </TableCell>
+                    <TableCell className="pr-3 text-right">
+                      <a
+                        className={buttonVariants({
+                          size: "sm",
+                          variant: "ghost",
+                        })}
+                        href={source.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Öppna
+                        <ExternalLinkIcon data-icon="inline-end" />
+                      </a>
+                    </TableCell>
+                  </TableRow>
+                ))}
+              </TableBody>
+            </Table>
+          </div>
+        </section>
       </div>
     </main>
   );

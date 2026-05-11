@@ -82,5 +82,12 @@
     "cumulative_cases": 8,
     "cumulative_deaths": 3,
     "note": "ECDC:s dagliga sida anger åtta fall och tre dödsfall; MV Hondius har anlänt till Tenerife."
+  },
+  {
+    "date": "2026-05-11",
+    "label": "11 maj",
+    "cumulative_cases": 9,
+    "cumulative_deaths": 3,
+    "note": "ECDC:s dagliga sida anger nio fall: sju bekräftade och två sannolika; ett nytt bekräftat fall har rapporterats i Frankrike."
   }
 ]
