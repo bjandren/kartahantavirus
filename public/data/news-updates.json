@@ -1,0 +1,35 @@
+[
+  {
+    "id": "official-baseline-2026-05-10",
+    "date": "2026-05-10",
+    "label": "Officiell baslinje",
+    "title": "ECDC anger 8 fall: 6 bekräftade och 2 sannolika",
+    "summary": "ECDC:s dagliga sida anger att MV Hondius har anlänt till Granadilla, Tenerife, och att passagerare går i land för successiva repatrieringsflyg. Risken för EU/EES allmänheten bedöms fortsatt som mycket låg.",
+    "source": {
+      "label": "ECDC, 10 maj 2026",
+      "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+    }
+  },
+  {
+    "id": "repatriation-positive-tests-2026-05-11",
+    "date": "2026-05-11",
+    "label": "Nyhetsrapport",
+    "title": "Fransk och amerikansk evacuee uppges ha testat positivt",
+    "summary": "AP och The Guardian rapporterar att en fransk kvinna i Paris och en amerikansk passagerare evakuerad till Nebraska testat positivt efter repatriering. De rapporterna visas som nyhetsnotiser tills nästa officiella WHO/ECDC-siffra publiceras.",
+    "source": {
+      "label": "AP, 11 maj 2026",
+      "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-df0e7e1fb9c7fd3e4092be06e684f644"
+    }
+  },
+  {
+    "id": "management-guidance-2026-05-09",
+    "date": "2026-05-09",
+    "label": "Vägledning",
+    "title": "ECDC och CDC beskriver uppföljning upp till 42 dagar",
+    "summary": "ECDC klassar personer ombord som högriskkontakter för disembarkation/repatriering och anger självkarantän, daglig symtomövervakning och testning vid symtom. CDC:s vägledning anger en inkubations-/uppföljningsperiod på 4-42 dagar.",
+    "source": {
+      "label": "ECDC, 9 maj 2026",
+      "url": "https://www.ecdc.europa.eu/en/publications-data/rapid-scientific-advice-management-passengers-context-andes-virus-outbreak-cruise"
+    }
+  }
+]

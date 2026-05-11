@@ -1,0 +1,257 @@
+[
+  {
+    "id": "ushuaia",
+    "name": "Ushuaia, Argentina",
+    "category": "exposure-hypothesis",
+    "lat": -54.8019,
+    "lng": -68.303,
+    "detail": "MV Hondius avgick från Ushuaia den 1 april 2026. Exponering före eller tidigt under resan ingår fortsatt i utredningen.",
+    "route_order": 1,
+    "sources": [
+      {
+        "label": "WHO DON600, 8 maj 2026",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
+      },
+      {
+        "label": "ECDC, 10 maj 2026",
+        "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+      }
+    ]
+  },
+  {
+    "id": "south-georgia",
+    "name": "Sydgeorgien",
+    "category": "route",
+    "lat": -54.4296,
+    "lng": -36.5879,
+    "detail": "Rapporterad som del av kryssningsrutten innan klustret anmäldes.",
+    "route_order": 2,
+    "sources": [
+      {
+        "label": "ECDC, 6 maj 2026",
+        "url": "https://www.ecdc.europa.eu/sites/default/files/documents/TAB-hantavirus-06052026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "tristan-da-cunha",
+    "name": "Tristan da Cunha",
+    "category": "route",
+    "lat": -37.1052,
+    "lng": -12.2777,
+    "detail": "Rapporterad som del av kryssningsrutten.",
+    "route_order": 3,
+    "sources": [
+      {
+        "label": "ECDC, 6 maj 2026",
+        "url": "https://www.ecdc.europa.eu/sites/default/files/documents/TAB-hantavirus-06052026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "st-helena",
+    "name": "Sankta Helena",
+    "category": "route",
+    "lat": -15.965,
+    "lng": -5.7089,
+    "detail": "WHO anger att kontaktspårning pågår för passagerare som gick i land på Sankta Helena.",
+    "route_order": 4,
+    "sources": [
+      {
+        "label": "WHO DON600, 8 maj 2026",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
+      }
+    ]
+  },
+  {
+    "id": "ascension",
+    "name": "Ascension",
+    "category": "medical-evacuation",
+    "lat": -7.9467,
+    "lng": -14.3559,
+    "detail": "ECDC rapporterade medicinsk evakuering från Ascension till Sydafrika.",
+    "route_order": 5,
+    "sources": [
+      {
+        "label": "ECDC, 6 maj 2026",
+        "url": "https://www.ecdc.europa.eu/sites/default/files/documents/TAB-hantavirus-06052026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "mv-hondius-cabo-verde",
+    "name": "MV Hondius, Kap Verde",
+    "category": "infected",
+    "lat": 14.933,
+    "lng": -23.513,
+    "metric": "Klustret rapporterat här i början av maj",
+    "detail": "Fartyget låg utanför Kap Verde när flera medicinska evakueringar genomfördes och WHO/ECDC samordnade responsen.",
+    "route_order": 6,
+    "sources": [
+      {
+        "label": "WHO DON600, 8 maj 2026",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
+      },
+      {
+        "label": "ECDC, 6 maj 2026",
+        "url": "https://www.ecdc.europa.eu/sites/default/files/documents/TAB-hantavirus-06052026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "tenerife-repatriation",
+    "name": "Granadilla, Tenerife",
+    "category": "medical-evacuation",
+    "lat": 28.046,
+    "lng": -16.52,
+    "metric": "Ankomst och repatriering 10-11 maj",
+    "detail": "ECDC anger att MV Hondius har anlänt till Granadilla, Tenerife, och att passagerare går i land för successiva repatrieringsflyg.",
+    "route_order": 7,
+    "sources": [
+      {
+        "label": "ECDC, 10 maj 2026",
+        "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+      },
+      {
+        "label": "AP, 11 maj 2026",
+        "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-df0e7e1fb9c7fd3e4092be06e684f644"
+      }
+    ]
+  },
+  {
+    "id": "cluster-official-count",
+    "name": "Officiell klustersiffra",
+    "category": "infected",
+    "lat": 15.25,
+    "lng": -23.2,
+    "metric": "8 fall: 6 bekräftade, 2 sannolika",
+    "detail": "WHO och ECDC anger åtta rapporterade fall i den officiella baslinjen, inklusive tre dödsfall.",
+    "sources": [
+      {
+        "label": "WHO DON600, 8 maj 2026",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
+      },
+      {
+        "label": "ECDC, 10 maj 2026",
+        "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+      }
+    ]
+  },
+  {
+    "id": "mv-hondius-deceased",
+    "name": "Dödsfall i klustret",
+    "category": "deceased",
+    "lat": 14.55,
+    "lng": -23.05,
+    "metric": "3 dödsfall",
+    "detail": "ECDC och WHO anger tre dödsfall i klustret.",
+    "sources": [
+      {
+        "label": "ECDC, 10 maj 2026",
+        "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+      },
+      {
+        "label": "WHO DON600, 8 maj 2026",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
+      }
+    ]
+  },
+  {
+    "id": "mv-hondius-monitored",
+    "name": "Ombord vid WHO-notis",
+    "category": "monitored",
+    "lat": 15.35,
+    "lng": -23.9,
+    "metric": "147 passagerare och besättning",
+    "detail": "WHO anger att 147 passagerare och besättningsmedlemmar fanns ombord när klustret rapporterades, medan 34 redan hade gått i land.",
+    "sources": [
+      {
+        "label": "WHO DON600, 8 maj 2026",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
+      }
+    ]
+  },
+  {
+    "id": "south-africa",
+    "name": "Johannesburg, Sydafrika",
+    "category": "linked-care",
+    "lat": -26.2041,
+    "lng": 28.0473,
+    "metric": "1 patient på intensivvård enligt WHO",
+    "detail": "WHO anger att en patient var inlagd på intensivvård i Johannesburg per 8 maj.",
+    "sources": [
+      {
+        "label": "WHO DON600, 8 maj 2026",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
+      }
+    ]
+  },
+  {
+    "id": "netherlands",
+    "name": "Nederländerna",
+    "category": "linked-care",
+    "lat": 52.1326,
+    "lng": 5.2913,
+    "metric": "2 patienter på sjukhus enligt WHO",
+    "detail": "WHO anger att två patienter var inlagda på olika sjukhus i Nederländerna per 8 maj.",
+    "sources": [
+      {
+        "label": "WHO DON600, 8 maj 2026",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
+      }
+    ]
+  },
+  {
+    "id": "switzerland",
+    "name": "Schweiz",
+    "category": "infected",
+    "lat": 46.8182,
+    "lng": 8.2275,
+    "metric": "1 diagnostiserat fall efter hemresa",
+    "detail": "WHO anger att en patient var inlagd i Zürich per 8 maj.",
+    "sources": [
+      {
+        "label": "WHO DON600, 8 maj 2026",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
+      }
+    ]
+  },
+  {
+    "id": "france-paris",
+    "name": "Paris, Frankrike",
+    "category": "infected",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "metric": "Nyhetsrapport: 1 positivt test efter repatriering",
+    "detail": "AP och The Guardian rapporterar den 11 maj att en fransk kvinna som evakuerats från MV Hondius testat positivt och vårdas i Paris.",
+    "sources": [
+      {
+        "label": "AP, 11 maj 2026",
+        "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-df0e7e1fb9c7fd3e4092be06e684f644"
+      },
+      {
+        "label": "The Guardian, 11 maj 2026",
+        "url": "https://www.theguardian.com/world/2026/may/11/evacuated-us-and-french-mv-hondius-cruise-ship-passengers-test-positive-for-hantavirus"
+      }
+    ]
+  },
+  {
+    "id": "united-states-nebraska",
+    "name": "Omaha, Nebraska, USA",
+    "category": "infected",
+    "lat": 41.2565,
+    "lng": -95.9345,
+    "metric": "Nyhetsrapport: 1 positivt test; 17 evakuerade",
+    "detail": "AP rapporterar att en av 17 amerikanska passagerare som flögs till Nebraska testat positivt utan symtom, och att ytterligare en hade milda symtom. UNMC anger att de evakuerade övervakas i National Quarantine Unit.",
+    "sources": [
+      {
+        "label": "AP, 11 maj 2026",
+        "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-df0e7e1fb9c7fd3e4092be06e684f644"
+      },
+      {
+        "label": "UNMC, 8 maj 2026",
+        "url": "https://www.unmc.edu/newsroom/2026/05/08/nebraska-medicine-unmc-asked-to-monitor-u-s-citizens-from-cruise-ship-hantavirus-outbreak/"
+      }
+    ]
+  }
+]

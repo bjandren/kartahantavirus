@@ -1,0 +1,86 @@
+[
+  {
+    "date": "2026-04-06",
+    "label": "6 apr",
+    "cumulative_cases": 1,
+    "cumulative_deaths": 0,
+    "note": "Första insjuknandet enligt ECDC."
+  },
+  {
+    "date": "2026-04-11",
+    "label": "11 apr",
+    "cumulative_cases": 1,
+    "cumulative_deaths": 1,
+    "note": "Första dödsfallet rapporterat ombord."
+  },
+  {
+    "date": "2026-04-24",
+    "label": "24 apr",
+    "cumulative_cases": 3,
+    "cumulative_deaths": 1,
+    "note": "Två ytterligare kopplade symtomatiska passagerare beskrivs i ECDC:s tidslinje."
+  },
+  {
+    "date": "2026-04-26",
+    "label": "26 apr",
+    "cumulative_cases": 3,
+    "cumulative_deaths": 2,
+    "note": "Andra dödsfallet efter vidare resa till Johannesburg."
+  },
+  {
+    "date": "2026-04-28",
+    "label": "28 apr",
+    "cumulative_cases": 5,
+    "cumulative_deaths": 2,
+    "note": "Ytterligare symtomatisk passagerare och besättningsmedlem rapporterade."
+  },
+  {
+    "date": "2026-04-30",
+    "label": "30 apr",
+    "cumulative_cases": 6,
+    "cumulative_deaths": 2,
+    "note": "Andra symtomatiska besättningsmedlemmen rapporterad."
+  },
+  {
+    "date": "2026-05-02",
+    "label": "2 maj",
+    "cumulative_cases": 6,
+    "cumulative_deaths": 3,
+    "note": "Tredje dödsfallet rapporterat ombord."
+  },
+  {
+    "date": "2026-05-05",
+    "label": "5 maj",
+    "cumulative_cases": 7,
+    "cumulative_deaths": 3,
+    "note": "Ytterligare passagerare diagnostiserad efter återkomst till Schweiz."
+  },
+  {
+    "date": "2026-05-06",
+    "label": "6 maj",
+    "cumulative_cases": 7,
+    "cumulative_deaths": 3,
+    "note": "ECDC-baslinje: sju rapporterade fall, inklusive tre dödsfall."
+  },
+  {
+    "date": "2026-05-07",
+    "label": "7 maj",
+    "cumulative_cases": 8,
+    "cumulative_deaths": 3,
+    "note": "WHO:s medieuppdatering anger åtta rapporterade fall, varav fem då var bekräftade."
+  },
+  {
+    "date": "2026-05-08",
+    "label": "8 maj",
+    "cumulative_cases": 8,
+    "cumulative_deaths": 3,
+    "note": "WHO DON600 anger åtta fall: sex bekräftade och två sannolika."
+  },
+  {
+    "date": "2026-05-10",
+    "label": "10 maj",
+    "cumulative_cases": 8,
+    "cumulative_deaths": 3,
+    "note": "ECDC:s dagliga sida anger åtta fall och tre dödsfall; MV Hondius har anlänt till Tenerife."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "mv-hondius-2026",
+    "name": "kryssningsklustret på MV Hondius",
+    "date": "2026-05-10",
+    "location": "Port of Granadilla, Tenerife, Kanarieöarna / internationell repatriering",
+    "lat": 28.046,
+    "lng": -16.52,
+    "confirmed_cases": 6,
+    "probable_cases": 2,
+    "additional_andv_positive_cases": 0,
+    "suspected_cases": 0,
+    "total_reported_cases": 8,
+    "deaths": 3,
+    "monitored_people": 147,
+    "status": "repatriering och kontaktspårning pågår",
+    "risk_assessment": "ECDC bedömer risken för EU/EES allmänheten som mycket låg. WHO bedömer global risk som låg och risken för passagerare och besättning som måttlig.",
+    "summary": "ECDC:s dagliga sida anger åtta rapporterade fall per 10 maj 2026: sex bekräftade, två sannolika och tre dödsfall. WHO:s DON600 anger samma officiella baslinje per 8 maj och beskriver internationell kontaktspårning via IHR.",
+    "sources": [
+      {
+        "label": "ECDC daglig uppdatering, 10 maj 2026",
+        "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+      },
+      {
+        "label": "WHO Disease Outbreak News DON600, 8 maj 2026",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
+      }
+    ]
+  }
+]
