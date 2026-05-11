@@ -89,8 +89,14 @@ export default function Home() {
             </Badge>
           </div>
           <div className="flex flex-col gap-2">
-            <h1 className="text-2xl font-semibold leading-tight tracking-normal sm:text-3xl">
-              Kartahantavirus.se
+            <h1 className="flex items-center gap-2 text-2xl font-semibold leading-tight tracking-normal sm:text-3xl">
+              <span
+                aria-hidden="true"
+                className="grid size-9 shrink-0 place-items-center rounded-lg bg-card text-2xl shadow-xs ring-1 ring-border sm:size-10 sm:text-3xl"
+              >
+                🦠
+              </span>
+              <span>Kartahantavirus.se</span>
             </h1>
           </div>
         </header>
