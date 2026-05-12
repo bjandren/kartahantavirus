@@ -1,5 +1,38 @@
 [
   {
+    "id": "who-ap-baseline-2026-05-12",
+    "date": "2026-05-12",
+    "label": "WHO/AP",
+    "title": "WHO uppges bekräfta 11 fall kopplade till MV Hondius",
+    "summary": "AP rapporterar att WHO nu bekräftar 11 fall bland passagerare eller besättning på MV Hondius, inklusive tre dödsfall. Nio av de elva fallen uppges vara bekräftade som Andesvirus.",
+    "source": {
+      "label": "AP, 12 maj 2026",
+      "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-ac42357c5c3ae1694a93f1d43ba38bdb"
+    }
+  },
+  {
+    "id": "spain-confirmed-case-2026-05-12",
+    "date": "2026-05-12",
+    "label": "Spanien",
+    "title": "Spansk passagerare i Madrid har testat positivt",
+    "summary": "AP rapporterar att Spaniens hälsoministerium bekräftar ett positivt test hos en spansk passagerare som sitter i karantän på militärsjukhuset Gómez Ulla i Madrid. De övriga 13 spanska evakuerade uppges ha testat negativt.",
+    "source": {
+      "label": "AP, 12 maj 2026",
+      "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-ac42357c5c3ae1694a93f1d43ba38bdb"
+    }
+  },
+  {
+    "id": "us-emory-unmc-monitoring-2026-05-12",
+    "date": "2026-05-12",
+    "label": "USA",
+    "title": "U.S. passagerare följs i Omaha och Atlanta",
+    "summary": "UNMC uppger att 16 amerikanska passagerare har repatrierats till Omaha, varav en tidigare Andes-positiv person övervakas i biocontainment. Axios rapporterar att två andra passagerare följs på Emory i Atlanta, en symtomatisk och en nära kontakt.",
+    "source": {
+      "label": "UNMC, 11 maj 2026",
+      "url": "https://www.unmc.edu/newsroom/2026/05/11/16-u-s-citizens-safely-repatriated-to-unmc-nebraska-medicine/"
+    }
+  },
+  {
     "id": "official-baseline-2026-05-11",
     "date": "2026-05-11",
     "label": "Officiell baslinje",
@@ -22,14 +55,14 @@
     }
   },
   {
-    "id": "repatriation-positive-tests-2026-05-11",
-    "date": "2026-05-11",
+    "id": "repatriation-complete-2026-05-12",
+    "date": "2026-05-12",
     "label": "Nyhetsrapport",
-    "title": "Repatriering och karantän fortsätter från Tenerife",
-    "summary": "AP rapporterar att passagerare flygs hem till fler än 20 länder och sätts i karantän eller övervakning. AP anger också att ett amerikanskt positivt test bedömdes som icke entydigt av WHO.",
+    "title": "Evakueringen från Tenerife är avslutad",
+    "summary": "Reuters rapporterar att de sista passagerarna och delar av besättningen evakuerats från Tenerife och att MV Hondius därefter lämnade ön med kurs mot Nederländerna. Passagerare följs vidare enligt nationella protokoll.",
     "source": {
-      "label": "AP, 11 maj 2026",
-      "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-df0e7e1fb9c7fd3e4092be06e684f644"
+      "label": "Reuters via The Jakarta Post, 12 maj 2026",
+      "url": "https://www.thejakartapost.com/world/2026/05/12/hantavirus-hit-ship-sets-sail-for-netherlands-as-final-passengers-evacuated-in-tenerife.html"
     }
   },
   {

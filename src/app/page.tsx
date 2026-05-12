@@ -39,35 +39,35 @@ export default function Home() {
     timeStyle: "short",
     timeZone: "Europe/Stockholm",
   }).format(new Date(trackerMetadata.manual_update_timestamp));
+  const latestCaseSource = {
+    label: "AP/WHO",
+    url: "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-ac42357c5c3ae1694a93f1d43ba38bdb",
+  };
 
   const stats = [
     {
       label: "Bekräftade fall",
       value: currentEvent.confirmed_cases,
-      sourceLabel: "ECDC",
-      sourceUrl:
-        "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak",
+      sourceLabel: latestCaseSource.label,
+      sourceUrl: latestCaseSource.url,
     },
     {
       label: "Sannolika fall",
       value: currentEvent.probable_cases,
-      sourceLabel: "ECDC",
-      sourceUrl:
-        "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak",
+      sourceLabel: latestCaseSource.label,
+      sourceUrl: latestCaseSource.url,
     },
     {
       label: "Totalt rapporterade",
       value: currentEvent.total_reported_cases,
-      sourceLabel: "ECDC",
-      sourceUrl:
-        "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak",
+      sourceLabel: latestCaseSource.label,
+      sourceUrl: latestCaseSource.url,
     },
     {
       label: "Dödsfall",
       value: currentDeaths,
-      sourceLabel: "ECDC",
-      sourceUrl:
-        "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak",
+      sourceLabel: latestCaseSource.label,
+      sourceUrl: latestCaseSource.url,
     },
     {
       label: "Exponerade ombord",

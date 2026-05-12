@@ -1,5 +1,29 @@
 [
   {
+    "id": "ap-who-11-cases-2026-05-12",
+    "publisher": "AP",
+    "title": "WHO says there are now 11 confirmed hantavirus infections from cruise ship",
+    "date": "2026-05-12",
+    "covers": "WHO-uppgift om 11 bekräftade fall kopplade till MV Hondius, tre dödsfall, nio Andesvirusbekräftade fall och spansk positiv passagerare i Madrid",
+    "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-ac42357c5c3ae1694a93f1d43ba38bdb"
+  },
+  {
+    "id": "axios-emory-monitoring-2026-05-12",
+    "publisher": "Axios Atlanta",
+    "title": "Emory monitors 2 cruise passengers linked to hantavirus outbreak",
+    "date": "2026-05-12",
+    "covers": "Två MV Hondius-passagerare i Emorys biocontainment-enhet i Atlanta: en symtomatisk patient och en asymtomatisk nära kontakt",
+    "url": "https://www.axios.com/local/atlanta/2026/05/12/emory-atlanta-hantavirus-cruise-ship-hondius-biocontainment-unit"
+  },
+  {
+    "id": "reuters-evacuation-complete-2026-05-12",
+    "publisher": "Reuters",
+    "title": "Hantavirus-hit ship sets sail for Netherlands as final passengers evacuated in Tenerife",
+    "date": "2026-05-12",
+    "covers": "Slutförd evakuering i Tenerife, MV Hondius avfärd mot Nederländerna och fortsatt nationell karantän/övervakning efter repatriering",
+    "url": "https://www.thejakartapost.com/world/2026/05/12/hantavirus-hit-ship-sets-sail-for-netherlands-as-final-passengers-evacuated-in-tenerife.html"
+  },
+  {
     "id": "ecdc-daily-outbreak-2026-05-11",
     "publisher": "ECDC",
     "title": "Andes Hantavirus outbreak in cruise ship, 11 May 2026",
@@ -72,11 +96,11 @@
     "url": "https://www.theguardian.com/world/2026/may/11/evacuated-us-and-french-mv-hondius-cruise-ship-passengers-test-positive-for-hantavirus"
   },
   {
-    "id": "unmc-monitoring-2026-05-10",
+    "id": "unmc-repatriation-2026-05-11",
     "publisher": "UNMC",
-    "title": "Nebraska Medicine/UNMC asked to monitor U.S. citizens from cruise ship hantavirus outbreak",
-    "date": "2026-05-10",
-    "covers": "Mottagning och övervakning av amerikanska passagerare i National Quarantine Unit",
-    "url": "https://www.unmc.edu/newsroom/2026/05/10/nebraska-medicine-unmc-asked-to-monitor-u-s-citizens-from-cruise-ship-hantavirus-outbreak/"
+    "title": "16 U.S. citizens safely repatriated to UNMC, Nebraska Medicine",
+    "date": "2026-05-11",
+    "covers": "16 amerikanska passagerare repatrierade till Omaha, 15 i National Quarantine Unit och en tidigare Andes-positiv person i Nebraska Biocontainment Unit",
+    "url": "https://www.unmc.edu/newsroom/2026/05/11/16-u-s-citizens-safely-repatriated-to-unmc-nebraska-medicine/"
   }
 ]

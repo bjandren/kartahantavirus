@@ -104,8 +104,8 @@
     "category": "medical-evacuation",
     "lat": 28.046,
     "lng": -16.52,
-    "metric": "Ankomst och repatriering 10-11 maj",
-    "detail": "ECDC anger att MV Hondius anlände till Granadilla, Tenerife, den 10 maj och att passagerare och besättning därefter repatrieras med icke-kommersiella flyg.",
+    "metric": "Evakuering avslutad 10-12 maj",
+    "detail": "ECDC anger att MV Hondius anlände till Granadilla, Tenerife, den 10 maj. Reuters rapporterar att de sista passagerarna och delar av besättningen därefter evakuerades och repatrierades via nationella protokoll.",
     "route_order": 7,
     "sources": [
       {
@@ -113,8 +113,24 @@
         "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
       },
       {
-        "label": "AP, 11 maj 2026",
-        "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-df0e7e1fb9c7fd3e4092be06e684f644"
+        "label": "Reuters, 12 maj 2026",
+        "url": "https://www.thejakartapost.com/world/2026/05/12/hantavirus-hit-ship-sets-sail-for-netherlands-as-final-passengers-evacuated-in-tenerife.html"
+      }
+    ]
+  },
+  {
+    "id": "rotterdam-disinfection",
+    "name": "Rotterdam, Nederländerna",
+    "category": "planned-route",
+    "lat": 51.9244,
+    "lng": 4.4777,
+    "metric": "MV Hondius på väg mot Nederländerna",
+    "detail": "Reuters rapporterar att MV Hondius lämnade Tenerife efter slutförd evakuering och seglar mot Nederländerna med reducerad besättning och sjukvårdspersonal ombord.",
+    "route_order": 8,
+    "sources": [
+      {
+        "label": "Reuters, 12 maj 2026",
+        "url": "https://www.thejakartapost.com/world/2026/05/12/hantavirus-hit-ship-sets-sail-for-netherlands-as-final-passengers-evacuated-in-tenerife.html"
       }
     ]
   },
@@ -124,9 +140,13 @@
     "category": "infected",
     "lat": 15.25,
     "lng": -23.2,
-    "metric": "9 fall: 7 bekräftade, 2 sannolika",
-    "detail": "ECDC anger nio rapporterade fall per 11 maj 2026, inklusive tre dödsfall. WHO:s DON600 anger den tidigare baslinjen från 8 maj.",
+    "metric": "11 fall, 3 dödsfall",
+    "detail": "AP rapporterar den 12 maj att WHO bekräftar 11 fall kopplade till MV Hondius, inklusive tre dödsfall, och att nio av fallen är bekräftade som Andesvirus. ECDC anger den tidigare 11 maj-baslinjen med nio rapporterade fall.",
     "sources": [
+      {
+        "label": "AP/WHO, 12 maj 2026",
+        "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-ac42357c5c3ae1694a93f1d43ba38bdb"
+      },
       {
         "label": "ECDC, 11 maj 2026",
         "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
@@ -202,6 +222,21 @@
     ]
   },
   {
+    "id": "spain-madrid",
+    "name": "Madrid, Spanien",
+    "category": "infected",
+    "lat": 40.4168,
+    "lng": -3.7038,
+    "metric": "1 spansk passagerare positiv",
+    "detail": "AP rapporterar att en spansk passagerare evakuerad från MV Hondius testat positivt under karantän på militärsjukhuset Gómez Ulla i Madrid. De övriga 13 spanska evakuerade uppges ha testat negativt.",
+    "sources": [
+      {
+        "label": "AP, 12 maj 2026",
+        "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-ac42357c5c3ae1694a93f1d43ba38bdb"
+      }
+    ]
+  },
+  {
     "id": "switzerland",
     "name": "Schweiz",
     "category": "infected",
@@ -245,16 +280,31 @@
     "category": "monitored",
     "lat": 41.2565,
     "lng": -95.9345,
-    "metric": "U.S. passagerare i karantän/övervakning",
-    "detail": "AP rapporterar att 18 evakuerade passagerare flögs till USA och att 16 togs till UNMC. WHO beskriver enligt AP ett amerikanskt positivt test som icke entydigt, medan UNMC anger att evakuerade personer övervakas i National Quarantine Unit.",
+    "metric": "16 U.S. passagerare på UNMC/Nebraska Medicine",
+    "detail": "UNMC rapporterar att 16 amerikanska passagerare anlänt till Omaha. Femton övervakas i National Quarantine Unit och en tidigare Andes-positiv person övervakas i Nebraska Biocontainment Unit utan symtom enligt måndagens uppdatering.",
     "sources": [
       {
-        "label": "AP, 11 maj 2026",
-        "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-df0e7e1fb9c7fd3e4092be06e684f644"
+        "label": "UNMC, 11 maj 2026",
+        "url": "https://www.unmc.edu/newsroom/2026/05/11/16-u-s-citizens-safely-repatriated-to-unmc-nebraska-medicine/"
       },
       {
-        "label": "UNMC, 10 maj 2026",
-        "url": "https://www.unmc.edu/newsroom/2026/05/10/nebraska-medicine-unmc-asked-to-monitor-u-s-citizens-from-cruise-ship-hantavirus-outbreak/"
+        "label": "AP, 12 maj 2026",
+        "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-ac42357c5c3ae1694a93f1d43ba38bdb"
+      }
+    ]
+  },
+  {
+    "id": "united-states-atlanta",
+    "name": "Atlanta, Georgia, USA",
+    "category": "linked-care",
+    "lat": 33.7925,
+    "lng": -84.3219,
+    "metric": "2 passagerare på Emory för vård/övervakning",
+    "detail": "Axios rapporterar att två passagerare från MV Hondius övervakas på Emory University Hospitals biocontainment-enhet: en symtomatisk patient och en asymtomatisk nära kontakt.",
+    "sources": [
+      {
+        "label": "Axios Atlanta, 12 maj 2026",
+        "url": "https://www.axios.com/local/atlanta/2026/05/12/emory-atlanta-hantavirus-cruise-ship-hondius-biocontainment-unit"
       }
     ]
   }
