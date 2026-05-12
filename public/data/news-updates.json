@@ -1,5 +1,16 @@
 [
   {
+    "id": "official-baseline-2026-05-12",
+    "date": "2026-05-12",
+    "label": "Officiell baslinje",
+    "title": "ECDC anger 11 fall: 9 bekräftade och 2 sannolika",
+    "summary": "ECDC:s dagliga sida anger per 12 maj kl. 11:30 elva rapporterade fall, noll misstänkta fall och tre dödsfall. Landstigning och repatriering från Tenerife slutfördes den 11 maj.",
+    "source": {
+      "label": "ECDC, 12 maj 2026",
+      "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+    }
+  },
+  {
     "id": "fhm-sweden-followup-2026-05-12",
     "date": "2026-05-12",
     "label": "Sverige",
@@ -55,17 +66,6 @@
     }
   },
   {
-    "id": "official-baseline-2026-05-11",
-    "date": "2026-05-11",
-    "label": "Officiell baslinje",
-    "title": "ECDC anger 9 fall: 7 bekräftade och 2 sannolika",
-    "summary": "ECDC:s dagliga sida anger per 11 maj nio rapporterade fall, noll misstänkta fall och tre dödsfall. Fartyget anlände till Granadilla den 10 maj och repatrieringar sker med icke-kommersiella flyg.",
-    "source": {
-      "label": "ECDC, 11 maj 2026",
-      "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
-    }
-  },
-  {
     "id": "ecdc-genomics-france-2026-05-11",
     "date": "2026-05-11",
     "label": "ECDC",
@@ -79,12 +79,12 @@
   {
     "id": "repatriation-complete-2026-05-12",
     "date": "2026-05-12",
-    "label": "Nyhetsrapport",
-    "title": "Evakueringen från Tenerife är avslutad",
-    "summary": "Reuters rapporterar att de sista passagerarna och delar av besättningen evakuerats från Tenerife och att MV Hondius därefter lämnade ön med kurs mot Nederländerna. Passagerare följs vidare enligt nationella protokoll.",
+    "label": "WHO/UN",
+    "title": "Evakueringen går över i uppföljningsfas",
+    "summary": "UN Geneva rapporterar att passagerare och besättning har lämnat MV Hondius i Tenerife och att WHO nu begär veckovisa IHR-uppdateringar. WHO beskriver 42 dagars isolering eller karantän från 10 maj.",
     "source": {
-      "label": "Reuters via The Jakarta Post, 12 maj 2026",
-      "url": "https://www.thejakartapost.com/world/2026/05/12/hantavirus-hit-ship-sets-sail-for-netherlands-as-final-passengers-evacuated-in-tenerife.html"
+      "label": "UN Geneva, 11 maj 2026",
+      "url": "https://www.ungeneva.org/en/news-media/news/2026/05/118547/hantavirus-hit-ship-evacuation-completed-quarantines-begin"
     }
   },
   {

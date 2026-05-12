@@ -104,17 +104,17 @@
     "category": "medical-evacuation",
     "lat": 28.046,
     "lng": -16.52,
-    "metric": "Evakuering avslutad 10-12 maj",
-    "detail": "ECDC anger att MV Hondius anlände till Granadilla, Tenerife, den 10 maj. Reuters rapporterar att de sista passagerarna och delar av besättningen därefter evakuerades och repatrierades via nationella protokoll.",
+    "metric": "Evakuering avslutad 11 maj",
+    "detail": "ECDC anger att MV Hondius anlände till Granadilla, Tenerife, den 10 maj och att landstigning samt repatriering slutfördes den 11 maj. WHO/UN beskriver därefter en uppföljningsfas med 42 dagars isolering eller karantän från 10 maj.",
     "route_order": 7,
     "sources": [
       {
-        "label": "ECDC, 11 maj 2026",
+        "label": "ECDC, 12 maj 2026",
         "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
       },
       {
-        "label": "Reuters, 12 maj 2026",
-        "url": "https://www.thejakartapost.com/world/2026/05/12/hantavirus-hit-ship-sets-sail-for-netherlands-as-final-passengers-evacuated-in-tenerife.html"
+        "label": "UN Geneva, 11 maj 2026",
+        "url": "https://www.ungeneva.org/en/news-media/news/2026/05/118547/hantavirus-hit-ship-evacuation-completed-quarantines-begin"
       }
     ]
   },
@@ -125,12 +125,16 @@
     "lat": 51.9244,
     "lng": 4.4777,
     "metric": "MV Hondius på väg mot Nederländerna",
-    "detail": "Reuters rapporterar att MV Hondius lämnade Tenerife efter slutförd evakuering och seglar mot Nederländerna med reducerad besättning och sjukvårdspersonal ombord.",
+    "detail": "Reuters rapporterar att MV Hondius lämnade Tenerife efter slutförd evakuering och seglar mot Nederländerna. WHO/UN anger att mer än 30 besättningsmedlemmar och två vårdpersonal stannade ombord när fartyget fortsatte mot Rotterdam.",
     "route_order": 8,
     "sources": [
       {
         "label": "Reuters, 12 maj 2026",
         "url": "https://www.thejakartapost.com/world/2026/05/12/hantavirus-hit-ship-sets-sail-for-netherlands-as-final-passengers-evacuated-in-tenerife.html"
+      },
+      {
+        "label": "UN Geneva, 11 maj 2026",
+        "url": "https://www.ungeneva.org/en/news-media/news/2026/05/118547/hantavirus-hit-ship-evacuation-completed-quarantines-begin"
       }
     ]
   },
@@ -141,8 +145,12 @@
     "lat": 15.25,
     "lng": -23.2,
     "metric": "11 fall, 3 dödsfall",
-    "detail": "Folkhälsomyndigheten anger den 12 maj att klustret omfattar 11 fall, varav 9 är laboratoriebekräftade för Andesvirus och 2 är misstänkta. Tre dödsfall har rapporterats.",
+    "detail": "ECDC anger den 12 maj att klustret omfattar 11 fall, varav 9 är bekräftade och 2 sannolika. Inga misstänkta fall återstår i ECDC:s klassning och tre dödsfall har rapporterats.",
     "sources": [
+      {
+        "label": "ECDC, 12 maj 2026",
+        "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+      },
       {
         "label": "Folkhälsomyndigheten, 12 maj 2026",
         "url": "https://www.folkhalsomyndigheten.se/vara-amnesomraden/sjukdomsutbrott/hantavirus-internationellt-maj-2026/"
@@ -150,10 +158,6 @@
       {
         "label": "AP/WHO, 12 maj 2026",
         "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-ac42357c5c3ae1694a93f1d43ba38bdb"
-      },
-      {
-        "label": "ECDC, 11 maj 2026",
-        "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
       },
       {
         "label": "WHO DON600, 8 maj 2026",
@@ -171,7 +175,7 @@
     "detail": "ECDC och WHO anger tre dödsfall i klustret.",
     "sources": [
       {
-        "label": "ECDC, 11 maj 2026",
+        "label": "ECDC, 12 maj 2026",
         "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
       },
       {

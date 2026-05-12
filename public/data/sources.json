@@ -1,5 +1,21 @@
 [
   {
+    "id": "ecdc-daily-outbreak-2026-05-12",
+    "publisher": "ECDC",
+    "title": "Andes Hantavirus outbreak in cruise ship, 12 May 2026",
+    "date": "2026-05-12",
+    "covers": "Daglig klusterstatus: 11 fall, 9 bekräftade, 2 sannolika, 0 misstänkta, 3 dödsfall och slutförd repatriering från Tenerife den 11 maj",
+    "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+  },
+  {
+    "id": "un-geneva-who-monitoring-2026-05-11",
+    "publisher": "UN Geneva",
+    "title": "Hantavirus-hit ship evacuation completed as quarantines begin",
+    "date": "2026-05-11",
+    "covers": "WHO-lägesbild efter evakueringen: 42 dagars isolering eller karantän från 10 maj, veckovisa IHR-uppdateringar och fortsatt övervakningsfas",
+    "url": "https://www.ungeneva.org/en/news-media/news/2026/05/118547/hantavirus-hit-ship-evacuation-completed-quarantines-begin"
+  },
+  {
     "id": "fhm-hantavirus-international-2026-05-12",
     "publisher": "Folkhälsomyndigheten",
     "title": "Hantavirus internationellt, maj 2026",
@@ -38,14 +54,6 @@
     "date": "2026-05-12",
     "covers": "Slutförd evakuering i Tenerife, MV Hondius avfärd mot Nederländerna och fortsatt nationell karantän/övervakning efter repatriering",
     "url": "https://www.thejakartapost.com/world/2026/05/12/hantavirus-hit-ship-sets-sail-for-netherlands-as-final-passengers-evacuated-in-tenerife.html"
-  },
-  {
-    "id": "ecdc-daily-outbreak-2026-05-11",
-    "publisher": "ECDC",
-    "title": "Andes Hantavirus outbreak in cruise ship, 11 May 2026",
-    "date": "2026-05-11",
-    "covers": "Daglig klusterstatus: 9 fall, 7 bekräftade, 2 sannolika, 0 misstänkta, 3 dödsfall och pågående repatriering från Tenerife",
-    "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
   },
   {
     "id": "ecdc-frontline-update-2026-05-11",

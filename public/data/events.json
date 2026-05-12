@@ -7,16 +7,20 @@
     "lat": 28.046,
     "lng": -16.52,
     "confirmed_cases": 9,
-    "probable_cases": 0,
+    "probable_cases": 2,
     "additional_andv_positive_cases": 0,
-    "suspected_cases": 2,
+    "suspected_cases": 0,
     "total_reported_cases": 11,
     "deaths": 3,
     "monitored_people": 147,
-    "status": "repatriering, karantän och kontaktspårning pågår",
+    "status": "repatriering slutförd; karantän och kontaktspårning pågår",
     "risk_assessment": "ECDC bedömer risken för EU/EES allmänheten som mycket låg. WHO bedömer global risk som låg och risken för passagerare och besättning som måttlig.",
-    "summary": "Folkhälsomyndigheten anger den 12 maj att klustret omfattar 11 fall, varav 9 är laboratoriebekräftade för Andesvirus och 2 är misstänkta. Tre dödsfall har rapporterats. Två svenska resenärer följs upp av regionalt smittskydd och risken för vidare spridning bedöms som mycket låg.",
+    "summary": "ECDC:s dagliga uppdatering den 12 maj anger 11 rapporterade fall, varav 9 är bekräftade och 2 sannolika, 0 misstänkta fall och 3 dödsfall. Repatrieringen från Tenerife slutfördes den 11 maj och fortsatt uppföljning sker nationellt.",
     "sources": [
+      {
+        "label": "ECDC daglig uppdatering, 12 maj 2026",
+        "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+      },
       {
         "label": "Folkhälsomyndigheten, 12 maj 2026",
         "url": "https://www.folkhalsomyndigheten.se/vara-amnesomraden/sjukdomsutbrott/hantavirus-internationellt-maj-2026/"
@@ -24,10 +28,6 @@
       {
         "label": "AP/WHO, 12 maj 2026",
         "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-ac42357c5c3ae1694a93f1d43ba38bdb"
-      },
-      {
-        "label": "ECDC daglig uppdatering, 11 maj 2026",
-        "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
       },
       {
         "label": "ECDC pressmeddelande, 11 maj 2026",

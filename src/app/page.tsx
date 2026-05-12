@@ -40,8 +40,8 @@ export default function Home() {
     timeZone: "Europe/Stockholm",
   }).format(new Date(trackerMetadata.manual_update_timestamp));
   const latestCaseSource = {
-    label: "Folkhälsomyndigheten",
-    url: "https://www.folkhalsomyndigheten.se/vara-amnesomraden/sjukdomsutbrott/hantavirus-internationellt-maj-2026/",
+    label: "ECDC",
+    url: "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak",
   };
   const unresolvedCaseStat =
     currentEvent.suspected_cases > 0
