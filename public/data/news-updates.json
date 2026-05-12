@@ -1,5 +1,27 @@
 [
   {
+    "id": "fhm-sweden-followup-2026-05-12",
+    "date": "2026-05-12",
+    "label": "Sverige",
+    "title": "Två svenska resenärer följs upp",
+    "summary": "Folkhälsomyndigheten uppger att två svenska resenärer följs upp av regionalt smittskydd efter internationell kontaktspårning eller uppmärksammade resor. Myndigheten förmedlar potentiella exponeringar till ansvarig region.",
+    "source": {
+      "label": "Folkhälsomyndigheten, 12 maj 2026",
+      "url": "https://www.folkhalsomyndigheten.se/vara-amnesomraden/sjukdomsutbrott/hantavirus-internationellt-maj-2026/"
+    }
+  },
+  {
+    "id": "aftonbladet-swedish-flight-contact-2026-05-12",
+    "date": "2026-05-12",
+    "label": "Nyhetsrapport",
+    "title": "Ytterligare svensk isolerad efter flygkontakt",
+    "summary": "Aftonbladet rapporterar att en svensk person isolerats efter att ha suttit nära en smittad person på en flygning från Johannesburg. Folkhälsomyndigheten uppges ha fått informationen via WHO och risken bedöms som låg.",
+    "source": {
+      "label": "Aftonbladet, 12 maj 2026",
+      "url": "https://www.aftonbladet.se/nyheter/a/Rr77qd/aftonbladet-direkt?pinnedEntry=1462768"
+    }
+  },
+  {
     "id": "who-ap-baseline-2026-05-12",
     "date": "2026-05-12",
     "label": "WHO/AP",

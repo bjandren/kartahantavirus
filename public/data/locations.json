@@ -141,8 +141,12 @@
     "lat": 15.25,
     "lng": -23.2,
     "metric": "11 fall, 3 dödsfall",
-    "detail": "AP rapporterar den 12 maj att WHO bekräftar 11 fall kopplade till MV Hondius, inklusive tre dödsfall, och att nio av fallen är bekräftade som Andesvirus. ECDC anger den tidigare 11 maj-baslinjen med nio rapporterade fall.",
+    "detail": "Folkhälsomyndigheten anger den 12 maj att klustret omfattar 11 fall, varav 9 är laboratoriebekräftade för Andesvirus och 2 är misstänkta. Tre dödsfall har rapporterats.",
     "sources": [
+      {
+        "label": "Folkhälsomyndigheten, 12 maj 2026",
+        "url": "https://www.folkhalsomyndigheten.se/vara-amnesomraden/sjukdomsutbrott/hantavirus-internationellt-maj-2026/"
+      },
       {
         "label": "AP/WHO, 12 maj 2026",
         "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-ac42357c5c3ae1694a93f1d43ba38bdb"
@@ -271,6 +275,25 @@
       {
         "label": "The Guardian, 11 maj 2026",
         "url": "https://www.theguardian.com/world/2026/may/11/evacuated-us-and-french-mv-hondius-cruise-ship-passengers-test-positive-for-hantavirus"
+      }
+    ]
+  },
+  {
+    "id": "sweden-followup",
+    "name": "Sverige",
+    "category": "monitored",
+    "lat": 62,
+    "lng": 15,
+    "metric": "2 svenska resenärer följs upp",
+    "detail": "Folkhälsomyndigheten anger att två svenska resenärer följs upp av regionalt smittskydd efter internationell kontaktspårning eller uppmärksammade resor. Aftonbladet rapporterar att den senaste uppgiften gäller möjlig exponering på en flygning från Johannesburg.",
+    "sources": [
+      {
+        "label": "Folkhälsomyndigheten, 12 maj 2026",
+        "url": "https://www.folkhalsomyndigheten.se/vara-amnesomraden/sjukdomsutbrott/hantavirus-internationellt-maj-2026/"
+      },
+      {
+        "label": "Aftonbladet, 12 maj 2026",
+        "url": "https://www.aftonbladet.se/nyheter/a/Rr77qd/aftonbladet-direkt?pinnedEntry=1462768"
       }
     ]
   },

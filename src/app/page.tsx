@@ -40,9 +40,19 @@ export default function Home() {
     timeZone: "Europe/Stockholm",
   }).format(new Date(trackerMetadata.manual_update_timestamp));
   const latestCaseSource = {
-    label: "AP/WHO",
-    url: "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-ac42357c5c3ae1694a93f1d43ba38bdb",
+    label: "Folkhälsomyndigheten",
+    url: "https://www.folkhalsomyndigheten.se/vara-amnesomraden/sjukdomsutbrott/hantavirus-internationellt-maj-2026/",
   };
+  const unresolvedCaseStat =
+    currentEvent.suspected_cases > 0
+      ? {
+          label: "Misstänkta fall",
+          value: currentEvent.suspected_cases,
+        }
+      : {
+          label: "Sannolika fall",
+          value: currentEvent.probable_cases,
+        };
 
   const stats = [
     {
@@ -52,8 +62,8 @@ export default function Home() {
       sourceUrl: latestCaseSource.url,
     },
     {
-      label: "Sannolika fall",
-      value: currentEvent.probable_cases,
+      label: unresolvedCaseStat.label,
+      value: unresolvedCaseStat.value,
       sourceLabel: latestCaseSource.label,
       sourceUrl: latestCaseSource.url,
     },

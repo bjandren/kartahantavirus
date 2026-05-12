@@ -6,17 +6,21 @@
     "location": "Port of Granadilla, Tenerife, Kanarieöarna / internationell repatriering",
     "lat": 28.046,
     "lng": -16.52,
-    "confirmed_cases": 11,
+    "confirmed_cases": 9,
     "probable_cases": 0,
     "additional_andv_positive_cases": 0,
-    "suspected_cases": 0,
+    "suspected_cases": 2,
     "total_reported_cases": 11,
     "deaths": 3,
     "monitored_people": 147,
     "status": "repatriering, karantän och kontaktspårning pågår",
     "risk_assessment": "ECDC bedömer risken för EU/EES allmänheten som mycket låg. WHO bedömer global risk som låg och risken för passagerare och besättning som måttlig.",
-    "summary": "AP rapporterar den 12 maj att WHO bekräftar 11 fall kopplade till MV Hondius, inklusive tre dödsfall, och att nio av de elva fallen är bekräftade som Andesvirus. ECDC:s senaste dagliga sida anger den tidigare 11 maj-baslinjen med nio rapporterade fall.",
+    "summary": "Folkhälsomyndigheten anger den 12 maj att klustret omfattar 11 fall, varav 9 är laboratoriebekräftade för Andesvirus och 2 är misstänkta. Tre dödsfall har rapporterats. Två svenska resenärer följs upp av regionalt smittskydd och risken för vidare spridning bedöms som mycket låg.",
     "sources": [
+      {
+        "label": "Folkhälsomyndigheten, 12 maj 2026",
+        "url": "https://www.folkhalsomyndigheten.se/vara-amnesomraden/sjukdomsutbrott/hantavirus-internationellt-maj-2026/"
+      },
       {
         "label": "AP/WHO, 12 maj 2026",
         "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-ac42357c5c3ae1694a93f1d43ba38bdb"

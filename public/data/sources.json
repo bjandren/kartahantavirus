@@ -1,10 +1,26 @@
 [
   {
+    "id": "fhm-hantavirus-international-2026-05-12",
+    "publisher": "Folkhälsomyndigheten",
+    "title": "Hantavirus internationellt, maj 2026",
+    "date": "2026-05-12",
+    "covers": "Svensk lägesbild: 11 fall totalt, 9 laboratoriebekräftade Andesvirusfall, 2 misstänkta fall, 3 dödsfall och två svenska resenärer i regional uppföljning",
+    "url": "https://www.folkhalsomyndigheten.se/vara-amnesomraden/sjukdomsutbrott/hantavirus-internationellt-maj-2026/"
+  },
+  {
+    "id": "aftonbladet-swedish-isolation-2026-05-12",
+    "publisher": "Aftonbladet",
+    "title": "En till svensk isolerad - satt nära smittad på flyg",
+    "date": "2026-05-12",
+    "covers": "Nyhetsrapport om svensk flygkontakt från Johannesburg, WHO-baserad kontaktspårning och låg bedömd smittrisk",
+    "url": "https://www.aftonbladet.se/nyheter/a/Rr77qd/aftonbladet-direkt?pinnedEntry=1462768"
+  },
+  {
     "id": "ap-who-11-cases-2026-05-12",
     "publisher": "AP",
     "title": "WHO says there are now 11 confirmed hantavirus infections from cruise ship",
     "date": "2026-05-12",
-    "covers": "WHO-uppgift om 11 bekräftade fall kopplade till MV Hondius, tre dödsfall, nio Andesvirusbekräftade fall och spansk positiv passagerare i Madrid",
+    "covers": "WHO-uppgift om 11 rapporterade fall kopplade till MV Hondius, tre dödsfall, nio Andesvirusbekräftade fall och spansk positiv passagerare i Madrid",
     "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-ac42357c5c3ae1694a93f1d43ba38bdb"
   },
   {
