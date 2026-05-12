@@ -18,11 +18,40 @@ type ProjectedPoint = {
   y: number;
 };
 
+type KeyPointLabel = {
+  dx: number;
+  dy: number;
+  label: string;
+};
+
 const mapFrame = {
   left: 646,
   top: 118,
   width: 474,
   height: 376,
+};
+
+const keyPointLabels: Record<string, KeyPointLabel> = {
+  ushuaia: {
+    dx: 14,
+    dy: -13,
+    label: "Ushuaia",
+  },
+  "st-helena": {
+    dx: -132,
+    dy: -13,
+    label: "Sankta Helena",
+  },
+  "mv-hondius-cabo-verde": {
+    dx: 14,
+    dy: -13,
+    label: "Kap Verde",
+  },
+  "tenerife-repatriation": {
+    dx: -94,
+    dy: -13,
+    label: "Tenerife",
+  },
 };
 
 function projectPoint(lat: number, lng: number): Pick<ProjectedPoint, "x" | "y"> {
@@ -97,9 +126,7 @@ export default function Image() {
     }));
   const polyline = routePoints.map((point) => `${point.x},${point.y}`).join(" ");
   const keyPoints = routePoints.filter((point) =>
-    ["ushuaia", "st-helena", "mv-hondius-cabo-verde", "tenerife-repatriation"].includes(
-      point.id,
-    ),
+    Object.hasOwn(keyPointLabels, point.id),
   );
 
   return new ImageResponse(
@@ -129,11 +156,11 @@ export default function Image() {
           style={{
             position: "absolute",
             left: 78,
-            top: 66,
+            top: 56,
             display: "flex",
             flexDirection: "column",
             width: 520,
-            gap: 28,
+            gap: 22,
           }}
         >
           <div
@@ -170,21 +197,26 @@ export default function Image() {
           >
             <div
               style={{
+                display: "flex",
+                flexDirection: "column",
                 color: "#0f172a",
-                fontSize: 66,
+                fontSize: 58,
                 fontWeight: 900,
                 letterSpacing: "-0.03em",
-                lineHeight: 0.96,
+                lineHeight: 0.9,
               }}
             >
-              Senaste nytt & karta över hantavirusutbrottet
+              <span>Senaste nytt &</span>
+              <span>karta över</span>
+              <span>hantavirus-</span>
+              <span>utbrottet</span>
             </div>
             <div
               style={{
                 color: "#334155",
-                fontSize: 32,
+                fontSize: 30,
                 fontWeight: 700,
-                lineHeight: 1.22,
+                lineHeight: 1.18,
               }}
             >
               Källbaserad bevakning med uppgifter från WHO, ECDC, CDC och
@@ -308,26 +340,30 @@ export default function Image() {
           );
         })}
 
-        {keyPoints.map((point) => (
-          <div
-            key={`${point.id}-label`}
-            style={{
-              position: "absolute",
-              left: point.x + 14,
-              top: point.y - 13,
-              display: "flex",
-              padding: "6px 10px",
-              borderRadius: 999,
-              background: "rgba(255, 255, 255, 0.86)",
-              color: "#0f172a",
-              fontSize: 20,
-              fontWeight: 800,
-              boxShadow: "0 8px 22px rgba(15, 23, 42, 0.12)",
-            }}
-          >
-            {point.name.replace("MV Hondius, ", "")}
-          </div>
-        ))}
+        {keyPoints.map((point) => {
+          const label = keyPointLabels[point.id];
+
+          return (
+            <div
+              key={`${point.id}-label`}
+              style={{
+                position: "absolute",
+                left: point.x + label.dx,
+                top: point.y + label.dy,
+                display: "flex",
+                padding: "6px 10px",
+                borderRadius: 999,
+                background: "rgba(255, 255, 255, 0.86)",
+                color: "#0f172a",
+                fontSize: 20,
+                fontWeight: 800,
+                boxShadow: "0 8px 22px rgba(15, 23, 42, 0.12)",
+              }}
+            >
+              {label.label}
+            </div>
+          );
+        })}
 
         <div
           style={{
