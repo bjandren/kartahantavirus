@@ -1,13 +1,35 @@
 [
   {
-    "id": "official-baseline-2026-05-12",
-    "date": "2026-05-12",
+    "id": "official-baseline-2026-05-14",
+    "date": "2026-05-14",
     "label": "Officiell baslinje",
-    "title": "ECDC anger 11 fall: 9 bekräftade och 2 sannolika",
-    "summary": "ECDC:s dagliga sida anger per 12 maj kl. 11:30 elva rapporterade fall, noll misstänkta fall och tre dödsfall. Landstigning och repatriering från Tenerife slutfördes den 11 maj.",
+    "title": "ECDC anger 11 fall: 8 bekräftade, 2 sannolika och 1 inkonklusivt",
+    "summary": "ECDC:s dagliga sida anger per 14 maj kl. 12:00 elva rapporterade fall, noll misstänkta fall och tre dödsfall. Inga nya fall eller dödsfall har rapporterats sedan föregående uppdatering.",
     "source": {
-      "label": "ECDC, 12 maj 2026",
+      "label": "ECDC, 14 maj 2026",
       "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+    }
+  },
+  {
+    "id": "australia-quarantine-2026-05-15",
+    "date": "2026-05-15",
+    "label": "Australien",
+    "title": "Sex passagerare i karantän i Western Australia",
+    "summary": "AP rapporterar att fem australiska passagerare och en nyzeeländsk medborgare har anlänt till Perth från Nederländerna för minst tre veckors karantän. De uppges ha testat negativt före avresa.",
+    "source": {
+      "label": "AP, 15 maj 2026",
+      "url": "https://apnews.com/article/hantavirus-australia-passengers-netherlands-quarantine-5872e351c6c2bc0f881b4165651e5611"
+    }
+  },
+  {
+    "id": "who-don601-2026-05-13",
+    "date": "2026-05-13",
+    "label": "WHO",
+    "title": "WHO beskriver ett inkonklusivt USA-kopplat provsvar",
+    "summary": "WHO DON601 anger 11 fall per 13 maj: 8 bekräftade, 2 sannolika och 1 inkonklusivt fall. Det inkonklusiva fallet gäller en asymtomatisk person som repatrierats till USA och testas om.",
+    "source": {
+      "label": "WHO DON601, 13 maj 2026",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601"
     }
   },
   {
@@ -36,8 +58,8 @@
     "id": "who-ap-baseline-2026-05-12",
     "date": "2026-05-12",
     "label": "WHO/AP",
-    "title": "WHO uppges bekräfta 11 fall kopplade till MV Hondius",
-    "summary": "AP rapporterar att WHO nu bekräftar 11 fall bland passagerare eller besättning på MV Hondius, inklusive tre dödsfall. Nio av de elva fallen uppges vara bekräftade som Andesvirus.",
+    "title": "Tidigare AP-rapport: 11 fall kopplade till MV Hondius",
+    "summary": "AP rapporterade den 12 maj elva fall bland passagerare eller besättning på MV Hondius, inklusive tre dödsfall. Senare WHO/ECDC-uppdateringar klassar ett av fallen som inkonklusivt under omtestning.",
     "source": {
       "label": "AP, 12 maj 2026",
       "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-ac42357c5c3ae1694a93f1d43ba38bdb"
@@ -58,11 +80,11 @@
     "id": "us-emory-unmc-monitoring-2026-05-12",
     "date": "2026-05-12",
     "label": "USA",
-    "title": "U.S. passagerare följs i Omaha och Atlanta",
-    "summary": "UNMC uppger att 16 amerikanska passagerare har repatrierats till Omaha, varav en tidigare Andes-positiv person övervakas i biocontainment. Axios rapporterar att två andra passagerare följs på Emory i Atlanta, en symtomatisk och en nära kontakt.",
+    "title": "U.S. passagerare följs i Omaha och Atlanta; inga bekräftade USA-fall",
+    "summary": "CDC anger att inga Andesvirusfall har bekräftats i USA i detta utbrott och att exponerade passagerare övervakas. WHO beskriver ett inkonklusivt, asymtomatiskt fall bland personer repatrierade till USA som testas om.",
     "source": {
-      "label": "UNMC, 11 maj 2026",
-      "url": "https://www.unmc.edu/newsroom/2026/05/11/16-u-s-citizens-safely-repatriated-to-unmc-nebraska-medicine/"
+      "label": "CDC, 12 maj 2026",
+      "url": "https://www.cdc.gov/hantavirus/situation-summary/"
     }
   },
   {
@@ -78,13 +100,13 @@
   },
   {
     "id": "repatriation-complete-2026-05-12",
-    "date": "2026-05-12",
-    "label": "WHO/UN",
-    "title": "Evakueringen går över i uppföljningsfas",
-    "summary": "UN Geneva rapporterar att passagerare och besättning har lämnat MV Hondius i Tenerife och att WHO nu begär veckovisa IHR-uppdateringar. WHO beskriver 42 dagars isolering eller karantän från 10 maj.",
+    "date": "2026-05-13",
+    "label": "WHO",
+    "title": "Fortsatt internationell kontaktspårning",
+    "summary": "WHO DON601 anger att internationell kontaktspårning fortsätter och att länder ombeds dela information om övervakning och hälsostatus för högriskkontakter via IHR-kanaler.",
     "source": {
-      "label": "UN Geneva, 11 maj 2026",
-      "url": "https://www.ungeneva.org/en/news-media/news/2026/05/118547/hantavirus-hit-ship-evacuation-completed-quarantines-begin"
+      "label": "WHO DON601, 13 maj 2026",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601"
     }
   },
   {

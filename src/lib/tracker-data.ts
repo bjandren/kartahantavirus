@@ -21,6 +21,7 @@ export type TrackerEvent = {
   probable_cases: number;
   additional_andv_positive_cases: number;
   suspected_cases: number;
+  inconclusive_cases: number;
   total_reported_cases: number;
   deaths: number;
   monitored_people: number;

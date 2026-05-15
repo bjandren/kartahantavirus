@@ -96,5 +96,12 @@
     "cumulative_cases": 11,
     "cumulative_deaths": 3,
     "note": "ECDC:s dagliga sida anger 11 fall: 9 bekräftade, 2 sannolika, 0 misstänkta och 3 dödsfall; repatrieringen slutfördes 11 maj."
+  },
+  {
+    "date": "2026-05-14",
+    "label": "14 maj",
+    "cumulative_cases": 11,
+    "cumulative_deaths": 3,
+    "note": "ECDC anger fortsatt 11 fall men omklassar läget till 8 bekräftade, 2 sannolika och 1 inkonklusivt fall; inga nya fall eller dödsfall sedan föregående uppdatering."
   }
 ]

@@ -109,7 +109,7 @@
     "route_order": 7,
     "sources": [
       {
-        "label": "ECDC, 12 maj 2026",
+        "label": "ECDC, 14 maj 2026",
         "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
       },
       {
@@ -125,9 +125,13 @@
     "lat": 51.9244,
     "lng": 4.4777,
     "metric": "MV Hondius på väg mot Nederländerna",
-    "detail": "Reuters rapporterar att MV Hondius lämnade Tenerife efter slutförd evakuering och seglar mot Nederländerna. WHO/UN anger att mer än 30 besättningsmedlemmar och två vårdpersonal stannade ombord när fartyget fortsatte mot Rotterdam.",
+    "detail": "AP rapporterar att MV Hondius är på väg mot Rotterdam för rengöring och desinfektion, med väntad ankomst 17-18 maj enligt operatören. Operatören väntades ge besked om kommande seglingsplan senare under veckan.",
     "route_order": 8,
     "sources": [
+      {
+        "label": "AP, 13 maj 2026",
+        "url": "https://apnews.com/article/hantavirus-cruise-outbreak-hondius-e04be7251214d05bc13628ff7ebd8970"
+      },
       {
         "label": "Reuters, 12 maj 2026",
         "url": "https://www.thejakartapost.com/world/2026/05/12/hantavirus-hit-ship-sets-sail-for-netherlands-as-final-passengers-evacuated-in-tenerife.html"
@@ -145,11 +149,15 @@
     "lat": 15.25,
     "lng": -23.2,
     "metric": "11 fall, 3 dödsfall",
-    "detail": "ECDC anger den 12 maj att klustret omfattar 11 fall, varav 9 är bekräftade och 2 sannolika. Inga misstänkta fall återstår i ECDC:s klassning och tre dödsfall har rapporterats.",
+    "detail": "ECDC anger den 14 maj att klustret omfattar 11 fall, varav 8 är bekräftade, 2 sannolika och 1 inkonklusivt. Inga misstänkta fall återstår i ECDC:s klassning och tre dödsfall har rapporterats.",
     "sources": [
       {
-        "label": "ECDC, 12 maj 2026",
+        "label": "ECDC, 14 maj 2026",
         "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+      },
+      {
+        "label": "WHO DON601, 13 maj 2026",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601"
       },
       {
         "label": "Folkhälsomyndigheten, 12 maj 2026",
@@ -175,12 +183,12 @@
     "detail": "ECDC och WHO anger tre dödsfall i klustret.",
     "sources": [
       {
-        "label": "ECDC, 12 maj 2026",
+        "label": "ECDC, 14 maj 2026",
         "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
       },
       {
-        "label": "WHO DON600, 8 maj 2026",
-        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
+        "label": "WHO DON601, 13 maj 2026",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601"
       }
     ]
   },
@@ -239,6 +247,10 @@
     "detail": "AP rapporterar att en spansk passagerare evakuerad från MV Hondius testat positivt under karantän på militärsjukhuset Gómez Ulla i Madrid. De övriga 13 spanska evakuerade uppges ha testat negativt.",
     "sources": [
       {
+        "label": "WHO DON601, 13 maj 2026",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601"
+      },
+      {
         "label": "AP, 12 maj 2026",
         "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-ac42357c5c3ae1694a93f1d43ba38bdb"
       }
@@ -268,6 +280,10 @@
     "metric": "1 bekräftat fall efter repatriering",
     "detail": "ECDC rapporterar den 11 maj ett nytt bekräftat fall hos en tidigare passagerare som utvecklade akuta symtom på flyget tillbaka till Frankrike och vårdas på intensivvård.",
     "sources": [
+      {
+        "label": "WHO DON601, 13 maj 2026",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601"
+      },
       {
         "label": "ECDC, 11 maj 2026",
         "url": "https://www.ecdc.europa.eu/en/news-events/andes-hantavirus-outbreak-ecdc-continues-working-frontline-support-eu-member-states"
@@ -302,14 +318,37 @@
     ]
   },
   {
+    "id": "australia-perth-quarantine",
+    "name": "Perth/Bullsbrook, Australien",
+    "category": "monitored",
+    "lat": -31.669,
+    "lng": 116.031,
+    "metric": "6 passagerare i minst tre veckors karantän",
+    "detail": "AP rapporterar den 15 maj att fem australiska passagerare och en nyzeeländsk medborgare har anlänt till Western Australia från Nederländerna och förts till Bullsbrook för karantän. De uppges ha testat negativt före avresan.",
+    "sources": [
+      {
+        "label": "AP, 15 maj 2026",
+        "url": "https://apnews.com/article/hantavirus-australia-passengers-netherlands-quarantine-5872e351c6c2bc0f881b4165651e5611"
+      }
+    ]
+  },
+  {
     "id": "united-states-nebraska",
     "name": "Omaha, Nebraska, USA",
     "category": "monitored",
     "lat": 41.2565,
     "lng": -95.9345,
-    "metric": "16 U.S. passagerare på UNMC/Nebraska Medicine",
-    "detail": "UNMC rapporterar att 16 amerikanska passagerare anlänt till Omaha. Femton övervakas i National Quarantine Unit och en tidigare Andes-positiv person övervakas i Nebraska Biocontainment Unit utan symtom enligt måndagens uppdatering.",
+    "metric": "U.S. passagerare i federal uppföljning",
+    "detail": "CDC anger att inga Andesvirusfall har bekräftats i USA från utbrottet och att exponerade passagerare övervakas. WHO beskriver ett inkonklusivt, asymtomatiskt fall bland personer repatrierade till USA som testas om.",
     "sources": [
+      {
+        "label": "CDC, 12 maj 2026",
+        "url": "https://www.cdc.gov/hantavirus/situation-summary/"
+      },
+      {
+        "label": "WHO DON601, 13 maj 2026",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601"
+      },
       {
         "label": "UNMC, 11 maj 2026",
         "url": "https://www.unmc.edu/newsroom/2026/05/11/16-u-s-citizens-safely-repatriated-to-unmc-nebraska-medicine/"
@@ -327,8 +366,12 @@
     "lat": 33.7925,
     "lng": -84.3219,
     "metric": "2 passagerare på Emory för vård/övervakning",
-    "detail": "Axios rapporterar att två passagerare från MV Hondius övervakas på Emory University Hospitals biocontainment-enhet: en symtomatisk patient och en asymtomatisk nära kontakt.",
+    "detail": "Axios rapporterar att två passagerare från MV Hondius övervakas på Emory University Hospitals biocontainment-enhet. CDC anger att repatrierade passagerare följs vid Emory och Nebraska och att inga Andesvirusfall har bekräftats i USA.",
     "sources": [
+      {
+        "label": "CDC, 12 maj 2026",
+        "url": "https://www.cdc.gov/hantavirus/situation-summary/"
+      },
       {
         "label": "Axios Atlanta, 12 maj 2026",
         "url": "https://www.axios.com/local/atlanta/2026/05/12/emory-atlanta-hantavirus-cruise-ship-hondius-biocontainment-unit"

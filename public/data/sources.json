@@ -1,11 +1,43 @@
 [
   {
-    "id": "ecdc-daily-outbreak-2026-05-12",
+    "id": "ap-australia-quarantine-2026-05-15",
+    "publisher": "AP",
+    "title": "6 people from hantavirus-hit ship arrive in Australian quarantine",
+    "date": "2026-05-15",
+    "covers": "Sex passagerare, varav fem australiska och en nyzeeländsk medborgare, anlända till Perth för minst tre veckors karantän efter negativa test före avresa",
+    "url": "https://apnews.com/article/hantavirus-australia-passengers-netherlands-quarantine-5872e351c6c2bc0f881b4165651e5611"
+  },
+  {
+    "id": "ecdc-daily-outbreak-2026-05-14",
     "publisher": "ECDC",
-    "title": "Andes Hantavirus outbreak in cruise ship, 12 May 2026",
-    "date": "2026-05-12",
-    "covers": "Daglig klusterstatus: 11 fall, 9 bekräftade, 2 sannolika, 0 misstänkta, 3 dödsfall och slutförd repatriering från Tenerife den 11 maj",
+    "title": "Andes Hantavirus outbreak in cruise ship, 14 May 2026",
+    "date": "2026-05-14",
+    "covers": "Daglig klusterstatus: 11 fall, 8 bekräftade, 2 sannolika, 1 inkonklusivt, 0 misstänkta, 3 dödsfall och inga nya fall eller dödsfall sedan föregående uppdatering",
     "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+  },
+  {
+    "id": "who-don-601",
+    "publisher": "WHO",
+    "title": "Hantavirus cluster linked to cruise ship travel, Multi-country",
+    "date": "2026-05-13",
+    "covers": "Disease Outbreak News DON601: 11 fall, 8 laboratoriebekräftade, 2 sannolika, 1 inkonklusivt fall under omtestning i USA, tre dödsfall och fortsatt internationell kontaktspårning",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601"
+  },
+  {
+    "id": "ap-operator-rotterdam-2026-05-13",
+    "publisher": "AP",
+    "title": "Operator expects to say by week's end when hantavirus-hit ship will sail again",
+    "date": "2026-05-13",
+    "covers": "MV Hondius på väg mot Rotterdam för rengöring och desinfektion, väntad ankomst 17-18 maj enligt operatören, samt osäker kommande seglingsplan",
+    "url": "https://apnews.com/article/hantavirus-cruise-outbreak-hondius-e04be7251214d05bc13628ff7ebd8970"
+  },
+  {
+    "id": "cdc-current-situation-2026-05-12",
+    "publisher": "CDC",
+    "title": "Hantavirus: Current Situation",
+    "date": "2026-05-12",
+    "covers": "Amerikansk lägesbild: inga bekräftade Andesvirusfall i USA från utbrottet, repatriering till Nebraska och Emory samt övervakning av exponerade passagerare",
+    "url": "https://www.cdc.gov/hantavirus/situation-summary/"
   },
   {
     "id": "un-geneva-who-monitoring-2026-05-11",
@@ -20,7 +52,7 @@
     "publisher": "Folkhälsomyndigheten",
     "title": "Hantavirus internationellt, maj 2026",
     "date": "2026-05-12",
-    "covers": "Svensk lägesbild: 11 fall totalt, 9 laboratoriebekräftade Andesvirusfall, 2 misstänkta fall, 3 dödsfall och två svenska resenärer i regional uppföljning",
+    "covers": "Svensk lägesbild och uppföljning: två svenska resenärer i regional uppföljning, låg risk för vidare spridning och myndighetskontakt med WHO",
     "url": "https://www.folkhalsomyndigheten.se/vara-amnesomraden/sjukdomsutbrott/hantavirus-internationellt-maj-2026/"
   },
   {
@@ -36,7 +68,7 @@
     "publisher": "AP",
     "title": "WHO says there are now 11 confirmed hantavirus infections from cruise ship",
     "date": "2026-05-12",
-    "covers": "WHO-uppgift om 11 rapporterade fall kopplade till MV Hondius, tre dödsfall, nio Andesvirusbekräftade fall och spansk positiv passagerare i Madrid",
+    "covers": "Tidigare nyhetsrapport om 11 rapporterade fall kopplade till MV Hondius, tre dödsfall och spansk positiv passagerare i Madrid",
     "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-ac42357c5c3ae1694a93f1d43ba38bdb"
   },
   {
