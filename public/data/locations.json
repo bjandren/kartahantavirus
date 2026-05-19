@@ -5,9 +5,13 @@
     "category": "exposure-hypothesis",
     "lat": -54.8019,
     "lng": -68.303,
-    "detail": "MV Hondius avgick från Ushuaia den 1 april 2026. Exponering före eller tidigt under resan ingår fortsatt i utredningen.",
+    "detail": "MV Hondius avgick från Ushuaia den 1 april 2026. AP rapporterar att Argentinas hälsomyndighet undersöker om de första offren kan ha exponerats där innan kryssningen.",
     "route_order": 1,
     "sources": [
+      {
+        "label": "AP, 18 maj 2026",
+        "url": "https://apnews.com/article/argentina-tourism-hantavirus-cruise-ship-ushuaia-7e16664e2d031797ed2c043c34956353"
+      },
       {
         "label": "WHO DON600, 8 maj 2026",
         "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
@@ -124,13 +128,17 @@
     "category": "planned-route",
     "lat": 51.9244,
     "lng": 4.4777,
-    "metric": "MV Hondius på väg mot Nederländerna",
-    "detail": "AP rapporterar att MV Hondius är på väg mot Rotterdam för rengöring och desinfektion, med väntad ankomst 17-18 maj enligt operatören. Operatören väntades ge besked om kommande seglingsplan senare under veckan.",
+    "metric": "MV Hondius anlände 18 maj",
+    "detail": "ECDC anger att MV Hondius anlände till Rotterdam den 18 maj med 27 besättningsmedlemmar ombord. El Pais rapporterar att kajen spärrats av och att besättningen går in i hälsokontroll och karantän.",
     "route_order": 8,
     "sources": [
       {
-        "label": "AP, 13 maj 2026",
-        "url": "https://apnews.com/article/hantavirus-cruise-outbreak-hondius-e04be7251214d05bc13628ff7ebd8970"
+        "label": "ECDC, 18 maj 2026",
+        "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+      },
+      {
+        "label": "El Pais, 18 maj 2026",
+        "url": "https://elpais.com/sociedad/2026-05-18/el-crucero-hondius-atraca-en-el-puerto-de-roterdam-para-su-desinfeccion-tras-el-brote-de-hantavirus.html"
       },
       {
         "label": "Reuters, 12 maj 2026",
@@ -148,9 +156,13 @@
     "category": "infected",
     "lat": 15.25,
     "lng": -23.2,
-    "metric": "11 fall, 3 dödsfall",
-    "detail": "ECDC anger den 14 maj att klustret omfattar 11 fall, varav 8 är bekräftade, 2 sannolika och 1 inkonklusivt. Inga misstänkta fall återstår i ECDC:s klassning och tre dödsfall har rapporterats.",
+    "metric": "12 fall, 3 dödsfall",
+    "detail": "ECDC anger den 18 maj att klustret omfattar 12 fall, varav 9 är bekräftade, 2 sannolika och 1 inkonklusivt. Inga misstänkta fall återstår i ECDC:s klassning och tre dödsfall har rapporterats.",
     "sources": [
+      {
+        "label": "ECDC, 18 maj 2026",
+        "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+      },
       {
         "label": "ECDC, 14 maj 2026",
         "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
@@ -182,6 +194,10 @@
     "metric": "3 dödsfall",
     "detail": "ECDC och WHO anger tre dödsfall i klustret.",
     "sources": [
+      {
+        "label": "ECDC, 18 maj 2026",
+        "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+      },
       {
         "label": "ECDC, 14 maj 2026",
         "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
@@ -318,6 +334,25 @@
     ]
   },
   {
+    "id": "canada-british-columbia",
+    "name": "British Columbia, Kanada",
+    "category": "infected",
+    "lat": 53.7267,
+    "lng": -127.6476,
+    "metric": "1 laboratoriebekräftat passagerarfall",
+    "detail": "Public Health Agency of Canada bekräftar att ett prov från en MV Hondius-passagerare i British Columbia var positivt för Andes-hantavirus den 16 maj. En respartner testade negativt och högriskkontakter isoleras och följs.",
+    "sources": [
+      {
+        "label": "PHAC, 17 maj 2026",
+        "url": "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation1.html"
+      },
+      {
+        "label": "ECDC, 18 maj 2026",
+        "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+      }
+    ]
+  },
+  {
     "id": "australia-perth-quarantine",
     "name": "Perth/Bullsbrook, Australien",
     "category": "monitored",
@@ -356,6 +391,21 @@
       {
         "label": "AP, 12 maj 2026",
         "url": "https://apnews.com/article/hantavirus-outbreak-hondius-cruise-ship-ac42357c5c3ae1694a93f1d43ba38bdb"
+      }
+    ]
+  },
+  {
+    "id": "washington-state-monitoring",
+    "name": "Washington, USA",
+    "category": "monitored",
+    "lat": 47.7511,
+    "lng": -120.7401,
+    "metric": "6 invånare följs efter möjlig exponering",
+    "detail": "Axios Seattle rapporterar att sex invånare i delstaten Washington följs efter möjlig exponering kopplad till MV Hondius-klustret. Alla uppgavs vara asymtomatiska den 18 maj.",
+    "sources": [
+      {
+        "label": "Axios Seattle, 18 maj 2026",
+        "url": "https://www.axios.com/local/seattle/2026/05/18/washington-hantavirus-monitoring-cruise-ship-andes-strain-king-county"
       }
     ]
   },

@@ -103,5 +103,12 @@
     "cumulative_cases": 11,
     "cumulative_deaths": 3,
     "note": "ECDC anger fortsatt 11 fall men omklassar läget till 8 bekräftade, 2 sannolika och 1 inkonklusivt fall; inga nya fall eller dödsfall sedan föregående uppdatering."
+  },
+  {
+    "date": "2026-05-18",
+    "label": "18 maj",
+    "cumulative_cases": 12,
+    "cumulative_deaths": 3,
+    "note": "ECDC anger 12 fall: 9 bekräftade, 2 sannolika och 1 inkonklusivt. Kanada rapporterade ett presumtivt positivt fall den 16 maj."
   }
 ]

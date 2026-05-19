@@ -2,6 +2,7 @@ import { ExternalLinkIcon } from "lucide-react";
 
 import { CasesOverTimeChart } from "@/components/cases-over-time-chart";
 import { MapPanel } from "@/components/map-panel";
+import { NewsCarousel } from "@/components/news-carousel";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import {
@@ -90,6 +91,9 @@ export default function Home() {
   const sortedTrackerSources = [...trackerSources].sort((left, right) =>
     right.date.localeCompare(left.date),
   );
+  const sortedNewsUpdates = [...newsUpdates].sort((left, right) =>
+    right.date.localeCompare(left.date),
+  );
 
   return (
     <main className="min-h-screen bg-background">
@@ -162,31 +166,8 @@ export default function Home() {
               nästa WHO/ECDC-uppdatering.
             </CardDescription>
           </CardHeader>
-          <CardContent className="grid gap-4 md:grid-cols-3">
-            {newsUpdates.map((update) => (
-              <article key={update.id} className="flex flex-col gap-2">
-                <div className="flex flex-wrap items-center gap-2">
-                  <Badge variant="secondary">{update.label}</Badge>
-                  <span className="font-mono text-xs text-muted-foreground">
-                    {update.date}
-                  </span>
-                </div>
-                <h2 className="text-sm font-semibold leading-5">
-                  {update.title}
-                </h2>
-                <p className="text-sm leading-6 text-muted-foreground">
-                  {update.summary}
-                </p>
-                <a
-                  className="mt-auto inline-flex text-xs font-medium text-muted-foreground underline-offset-4 hover:underline"
-                  href={update.source.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Källa: {update.source.label}
-                </a>
-              </article>
-            ))}
+          <CardContent>
+            <NewsCarousel updates={sortedNewsUpdates} />
           </CardContent>
         </Card>
 

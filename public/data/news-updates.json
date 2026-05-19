@@ -1,10 +1,65 @@
 [
   {
+    "id": "official-baseline-2026-05-18",
+    "date": "2026-05-18",
+    "label": "Officiell baslinje",
+    "title": "ECDC anger 12 fall: 9 bekräftade, 2 sannolika och 1 inkonklusivt",
+    "summary": "ECDC:s dagliga sida anger per 18 maj kl. 14:00 tolv rapporterade fall, noll misstänkta fall och tre dödsfall. Kanada rapporterade ett presumtivt positivt passagerarfall den 16 maj.",
+    "source": {
+      "label": "ECDC, 18 maj 2026",
+      "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+    }
+  },
+  {
+    "id": "canada-confirmed-case-2026-05-17",
+    "date": "2026-05-17",
+    "label": "Kanada",
+    "title": "Kanada bekräftar ett passagerarfall",
+    "summary": "Public Health Agency of Canada bekräftar ett Andes-hantavirusfall hos en MV Hondius-passagerare efter laboratorietestning. En respartner testade negativt och högriskkontakter fortsätter isoleras och följas.",
+    "source": {
+      "label": "PHAC, 17 maj 2026",
+      "url": "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation1.html"
+    }
+  },
+  {
+    "id": "rotterdam-arrival-2026-05-18",
+    "date": "2026-05-18",
+    "label": "Nederländerna",
+    "title": "MV Hondius har anlänt till Rotterdam",
+    "summary": "ECDC anger att MV Hondius anlände till Rotterdam den 18 maj med 27 besättningsmedlemmar ombord. Lokala rapporter beskriver avspärrad kaj, hälsokontroll och fortsatt karantän för besättningen.",
+    "source": {
+      "label": "ECDC, 18 maj 2026",
+      "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+    }
+  },
+  {
+    "id": "washington-monitoring-2026-05-18",
+    "date": "2026-05-18",
+    "label": "USA",
+    "title": "Sex personer i Washington följs efter möjlig exponering",
+    "summary": "Axios rapporterar att sex invånare i delstaten Washington följs efter möjlig exponering kopplad till MV Hondius-klustret. Alla uppgavs vara asymtomatiska den 18 maj.",
+    "source": {
+      "label": "Axios Seattle, 18 maj 2026",
+      "url": "https://www.axios.com/local/seattle/2026/05/18/washington-hantavirus-monitoring-cruise-ship-andes-strain-king-county"
+    }
+  },
+  {
+    "id": "ushuaia-source-investigation-2026-05-18",
+    "date": "2026-05-18",
+    "label": "Argentina",
+    "title": "Ushuaia granskas som möjlig exponeringsplats",
+    "summary": "AP rapporterar att argentinska myndigheter undersöker om de första offren kan ha smittats i Ushuaia innan kryssningen, samtidigt som staden oroas för turismens reaktion.",
+    "source": {
+      "label": "AP, 18 maj 2026",
+      "url": "https://apnews.com/article/argentina-tourism-hantavirus-cruise-ship-ushuaia-7e16664e2d031797ed2c043c34956353"
+    }
+  },
+  {
     "id": "official-baseline-2026-05-14",
     "date": "2026-05-14",
     "label": "Officiell baslinje",
-    "title": "ECDC anger 11 fall: 8 bekräftade, 2 sannolika och 1 inkonklusivt",
-    "summary": "ECDC:s dagliga sida anger per 14 maj kl. 12:00 elva rapporterade fall, noll misstänkta fall och tre dödsfall. Inga nya fall eller dödsfall har rapporterats sedan föregående uppdatering.",
+    "title": "Tidigare ECDC-baslinje: 11 fall",
+    "summary": "ECDC:s 14 maj-sida angav elva rapporterade fall, noll misstänkta fall och tre dödsfall. Den uppgiften har ersatts av ECDC:s 18 maj-baslinje med ett kanadensiskt fall inräknat.",
     "source": {
       "label": "ECDC, 14 maj 2026",
       "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
