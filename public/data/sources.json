@@ -1,5 +1,37 @@
 [
   {
+    "id": "ecdc-daily-outbreak-2026-05-19",
+    "publisher": "ECDC",
+    "title": "Andes hantavirus outbreak in cruise ship, 19 May 2026",
+    "date": "2026-05-19",
+    "covers": "Daglig klusterstatus: 11 fall, 9 bekräftade, 2 sannolika, 0 misstänkta, 3 dödsfall; tidigare inkonklusivt fall borttaget efter uteblivna symtom och ej PCR-bekräftad Andesvirusinfektion",
+    "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+  },
+  {
+    "id": "ap-nebraska-quarantine-orders-2026-05-19",
+    "publisher": "AP",
+    "title": "US health officials order quarantine for 2 passengers from cruise ship with hantavirus outbreak",
+    "date": "2026-05-19",
+    "covers": "Federala CDC-karantänorder för två passagerare vid Nebraska Medicine, med uppgift om inga konstaterade hantavirusfall bland repatrierade amerikanska passagerare",
+    "url": "https://apnews.com/article/hantavirus-ship-quarantine-andes-virus-302d45d77aac4d55aa76c43d79f54ec9"
+  },
+  {
+    "id": "ap-ushuaia-rodent-fieldwork-2026-05-19",
+    "publisher": "AP",
+    "title": "Argentine investigators trap rodents in Ushuaia to trace hantavirus outbreak",
+    "date": "2026-05-19",
+    "covers": "Argentinskt fältarbete runt Ushuaia med 150 fällor och planerad laboratorieanalys för att undersöka möjlig källa till MV Hondius-utbrottet",
+    "url": "https://apnews.com/article/argentina-hantavirus-investigation-cruise-ship-hondius-outbreak-ushuaia-6e02980f2ab1637e3ceeddc7d1429b5f"
+  },
+  {
+    "id": "who-risk-assessment-v2-2026-05-17",
+    "publisher": "WHO",
+    "title": "WHO Rapid Risk Assessment - Hantavirus outbreak caused by Andes virus, Global v.2",
+    "date": "2026-05-17",
+    "covers": "WHO:s uppdaterade globala riskbedömning för MV Hondius-utbrottet och kontrollkapacitet vid internationell uppföljning",
+    "url": "https://www.who.int/publications/m/item/who-rapid-risk-assessment---hantavirus-outbreak-caused-by-andes-virus--global-v.2"
+  },
+  {
     "id": "ecdc-daily-outbreak-2026-05-18",
     "publisher": "ECDC",
     "title": "Andes hantavirus outbreak in cruise ship, 18 May 2026",

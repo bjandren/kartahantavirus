@@ -5,9 +5,13 @@
     "category": "exposure-hypothesis",
     "lat": -54.8019,
     "lng": -68.303,
-    "detail": "MV Hondius avgick från Ushuaia den 1 april 2026. AP rapporterar att Argentinas hälsomyndighet undersöker om de första offren kan ha exponerats där innan kryssningen.",
+    "detail": "MV Hondius avgick från Ushuaia den 1 april 2026. AP rapporterar den 19 maj att argentinska utredare kontrollerar 150 gnagarfällor runt Ushuaia som del av arbetet med att hitta möjlig källa till utbrottet.",
     "route_order": 1,
     "sources": [
+      {
+        "label": "AP, 19 maj 2026",
+        "url": "https://apnews.com/article/argentina-hantavirus-investigation-cruise-ship-hondius-outbreak-ushuaia-6e02980f2ab1637e3ceeddc7d1429b5f"
+      },
       {
         "label": "AP, 18 maj 2026",
         "url": "https://apnews.com/article/argentina-tourism-hantavirus-cruise-ship-ushuaia-7e16664e2d031797ed2c043c34956353"
@@ -129,11 +133,11 @@
     "lat": 51.9244,
     "lng": 4.4777,
     "metric": "MV Hondius anlände 18 maj",
-    "detail": "ECDC anger att MV Hondius anlände till Rotterdam den 18 maj med 27 besättningsmedlemmar ombord. El Pais rapporterar att kajen spärrats av och att besättningen går in i hälsokontroll och karantän.",
+    "detail": "ECDC anger att MV Hondius anlände till Rotterdam den 18 maj med 25 besättningsmedlemmar och 2 medicinska medarbetare ombord. Landstigning, isolering, rengöring och desinfektion pågår.",
     "route_order": 8,
     "sources": [
       {
-        "label": "ECDC, 18 maj 2026",
+        "label": "ECDC, 19 maj 2026",
         "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
       },
       {
@@ -156,11 +160,11 @@
     "category": "infected",
     "lat": 15.25,
     "lng": -23.2,
-    "metric": "12 fall, 3 dödsfall",
-    "detail": "ECDC anger den 18 maj att klustret omfattar 12 fall, varav 9 är bekräftade, 2 sannolika och 1 inkonklusivt. Inga misstänkta fall återstår i ECDC:s klassning och tre dödsfall har rapporterats.",
+    "metric": "11 fall, 3 dödsfall",
+    "detail": "ECDC anger den 19 maj att klustret omfattar 11 fall, varav 9 är bekräftade och 2 sannolika. Det tidigare inkonklusiva fallet har tagits bort från fallräkningen eftersom personen inte utvecklade symtom och PCR inte bekräftade Andesvirusinfektion.",
     "sources": [
       {
-        "label": "ECDC, 18 maj 2026",
+        "label": "ECDC, 19 maj 2026",
         "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
       },
       {
@@ -195,7 +199,7 @@
     "detail": "ECDC och WHO anger tre dödsfall i klustret.",
     "sources": [
       {
-        "label": "ECDC, 18 maj 2026",
+        "label": "ECDC, 19 maj 2026",
         "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
       },
       {
@@ -347,7 +351,7 @@
         "url": "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation1.html"
       },
       {
-        "label": "ECDC, 18 maj 2026",
+        "label": "ECDC, 19 maj 2026",
         "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
       }
     ]
@@ -374,8 +378,12 @@
     "lat": 41.2565,
     "lng": -95.9345,
     "metric": "U.S. passagerare i federal uppföljning",
-    "detail": "CDC anger att inga Andesvirusfall har bekräftats i USA från utbrottet och att exponerade passagerare övervakas. WHO beskriver ett inkonklusivt, asymtomatiskt fall bland personer repatrierade till USA som testas om.",
+    "detail": "AP rapporterar den 19 maj att CDC utfärdat karantänorder för två passagerare vid Nebraska Medicine. CDC uppger samtidigt att inga hantavirusfall har konstaterats bland de repatrierade amerikanska passagerarna.",
     "sources": [
+      {
+        "label": "AP, 19 maj 2026",
+        "url": "https://apnews.com/article/hantavirus-ship-quarantine-andes-virus-302d45d77aac4d55aa76c43d79f54ec9"
+      },
       {
         "label": "CDC, 12 maj 2026",
         "url": "https://www.cdc.gov/hantavirus/situation-summary/"

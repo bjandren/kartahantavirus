@@ -2,7 +2,7 @@
   {
     "id": "mv-hondius-2026",
     "name": "kryssningsklustret på MV Hondius",
-    "date": "2026-05-18",
+    "date": "2026-05-19",
     "location": "Port of Granadilla, Tenerife, Kanarieöarna / internationell repatriering",
     "lat": 28.046,
     "lng": -16.52,
@@ -10,16 +10,16 @@
     "probable_cases": 2,
     "additional_andv_positive_cases": 0,
     "suspected_cases": 0,
-    "inconclusive_cases": 1,
-    "total_reported_cases": 12,
+    "inconclusive_cases": 0,
+    "total_reported_cases": 11,
     "deaths": 3,
     "monitored_people": 147,
     "status": "repatriering slutförd; karantän, omtestning och kontaktspårning pågår",
     "risk_assessment": "ECDC bedömer risken för EU/EES allmänheten som mycket låg. WHO bedömer global risk som låg och risken för passagerare och besättning som måttlig.",
-    "summary": "ECDC:s dagliga uppdatering den 18 maj anger 12 rapporterade fall: 9 bekräftade, 2 sannolika och 1 inkonklusivt fall, samt 0 misstänkta fall och 3 dödsfall. ECDC anger att Kanada rapporterade ett presumtivt positivt passagerarfall den 16 maj och att MV Hondius anlände till Rotterdam den 18 maj.",
+    "summary": "ECDC:s dagliga uppdatering den 19 maj anger 11 rapporterade fall: 9 bekräftade och 2 sannolika fall, samt 0 misstänkta fall och 3 dödsfall. Det tidigare inkonklusiva fallet har tagits bort från fallräkningen eftersom personen inte utvecklade symtom och Andesvirusinfektion inte bekräftades med PCR.",
     "sources": [
       {
-        "label": "ECDC daglig uppdatering, 18 maj 2026",
+        "label": "ECDC daglig uppdatering, 19 maj 2026",
         "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
       },
       {
